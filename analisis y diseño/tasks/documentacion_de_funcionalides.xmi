@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-4Z3acsx3gSXNuJH3pFp1GQ" name="documentacion_de_funcionalides,_VAcfwPZrEe2gYZzTouN9Vg" guid="-4Z3acsx3gSXNuJH3pFp1GQ" changeDate="2023-05-22T19:17:05.618-0500">
+  <purpose>&lt;p>&#xD;
+    asegurar una comunicación clara y efectiva entre los diferentes miembros del equipo de desarrollo y los stakeholders&#xD;
+    involucrados&#xD;
+&lt;/p></purpose>
+</org.eclipse.epf.uma:TaskDescription>

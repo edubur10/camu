@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_Oli5IfQfEe2JFv2GBsKE7Q" guid="_Oli5IfQfEe2JFv2GBsKE7Q"/>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_Oli5EPQfEe2JFv2GBsKE7Q" name="implementacion" guid="_Oli5EPQfEe2JFv2GBsKE7Q" presentationName="implementacion" briefDescription="La implementación de un proyecto de software es la etapa en la cual se lleva a cabo la construcción del software de acuerdo con las especificaciones y el diseño establecido previamente. Es el proceso de desarrollar, codificar y probar el software para que funcione de acuerdo con los requisitos y las expectativas del cliente." authors="Eduardo Esteban Burbano Cordoba y Andres Felipe Aristizabal" changeDate="2023-05-19T17:05:24.942-0500" version="version 1.0">
+    <methodElementProperty xmi:id="_cMIDgPaQEe2oZJcuCaSHaw" name="me_edited" value="true"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Oli5EfQfEe2JFv2GBsKE7Q" name="Content" guid="_Oli5EfQfEe2JFv2GBsKE7Q">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Oli5EvQfEe2JFv2GBsKE7Q" name="Categories" guid="_Oli5EvQfEe2JFv2GBsKE7Q">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Oli5E_QfEe2JFv2GBsKE7Q" name="Domains" guid="_Oli5E_QfEe2JFv2GBsKE7Q"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Oli5FPQfEe2JFv2GBsKE7Q" name="Disciplines" guid="_Oli5FPQfEe2JFv2GBsKE7Q"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Oli5FfQfEe2JFv2GBsKE7Q" name="RoleSets" guid="_Oli5FfQfEe2JFv2GBsKE7Q"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Oli5FvQfEe2JFv2GBsKE7Q" name="WP Types" guid="_Oli5FvQfEe2JFv2GBsKE7Q"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Oli5F_QfEe2JFv2GBsKE7Q" name="Tools" guid="_Oli5F_QfEe2JFv2GBsKE7Q"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Oli5GPQfEe2JFv2GBsKE7Q" name="StandardCategories" guid="_Oli5GPQfEe2JFv2GBsKE7Q"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Oli5GfQfEe2JFv2GBsKE7Q" name="CustomCategories" guid="_Oli5GfQfEe2JFv2GBsKE7Q">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Oli5GvQfEe2JFv2GBsKE7Q" name="Hidden" guid="_Oli5GvQfEe2JFv2GBsKE7Q">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_Oli5G_QfEe2JFv2GBsKE7Q" name="Custom Categories" guid="_Oli5G_QfEe2JFv2GBsKE7Q"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Oli5HPQfEe2JFv2GBsKE7Q" name="CoreContent" guid="_Oli5HPQfEe2JFv2GBsKE7Q">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gfoTUPaAEe2_E42pcKnhRw" name="implementar_requisitos_y_funcionalides" guid="_gfoTUPaAEe2_E42pcKnhRw" presentationName="implementar requisitos y funcionalides">
+          <methodElementProperty xmi:id="_gfo6YPaAEe2_E42pcKnhRw" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_6LOu0PaAEe2_E42pcKnhRw" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_k-lK4PaAEe2_E42pcKnhRw" name="codigo_documentado" guid="_k-lK4PaAEe2_E42pcKnhRw" presentationName="codigo documentado" briefDescription="Un código bien documentado facilita la comprensión, el mantenimiento y la colaboración entre los miembros del equipo de desarrollo. Permite que otros desarrolladores comprendan rápidamente cómo funciona el código y puedan hacer modificaciones o mejoras de manera efectiva. Además, la documentación ayuda a reducir los errores y a asegurar la consistencia en el desarrollo del software.">
+            <methodElementProperty xmi:id="_6LYf0PaAEe2_E42pcKnhRw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_ofWi8PaAEe2_E42pcKnhRw" name="identificar_el_requisito" guid="_ofWi8PaAEe2_E42pcKnhRw" presentationName="identificar el requisito" briefDescription="La identificación precisa de los requisitos es esencial para garantizar que el software desarrollado cumpla con las necesidades y expectativas del cliente. Al comprender y documentar claramente los requisitos, se establece una base sólida para la implementación efectiva de las funcionalidades requeridas en el proyecto de software." performedBy="_rrMz4PaAEe2_E42pcKnhRw" mandatoryInput="_k-lK4PaAEe2_E42pcKnhRw" output="_k-lK4PaAEe2_E42pcKnhRw">
+            <methodElementProperty xmi:id="_6LYf0vaAEe2_E42pcKnhRw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_rrMz4PaAEe2_E42pcKnhRw" name="desarrollador_backend" guid="_rrMz4PaAEe2_E42pcKnhRw" presentationName="desarrollador backend" briefDescription="Un desarrollador backend es un profesional especializado en la programación y desarrollo de la parte del sistema de software que se encarga de la lógica de negocios, la gestión de datos y la comunicación entre el servidor y el cliente." responsibleFor="_k-lK4PaAEe2_E42pcKnhRw _NyJEAPaBEe2_E42pcKnhRw _gtheAPaDEe2_E42pcKnhRw _hUyc4PaEEe2_E42pcKnhRw">
+            <methodElementProperty xmi:id="_6LlUIPaAEe2_E42pcKnhRw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_3iw3wPaAEe2_E42pcKnhRw" name="plantear_el_desarrollo" guid="_3iw3wPaAEe2_E42pcKnhRw" presentationName="plantear el desarrollo" briefDescription="Plantear el desarrollo en la actividad de implementar requisitos y funcionalidades de un proyecto de software implica definir una estrategia y planificación para llevar a cabo la implementación de manera efectiva y eficiente. " performedBy="_rrMz4PaAEe2_E42pcKnhRw">
+            <methodElementProperty xmi:id="_6LnJUPaAEe2_E42pcKnhRw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_9E5qoPaAEe2_E42pcKnhRw" name="desarrollar_el_codigo_documentado" guid="_9E5qoPaAEe2_E42pcKnhRw" presentationName="desarrollar el codigo documentado" briefDescription="Desarrollar el código documentado en la actividad de implementar requisitos y funcionalidades de un proyecto de software implica escribir el código de programación necesario para crear las funcionalidades y cumplir con los requisitos establecidos en la etapa de diseño." performedBy="_rrMz4PaAEe2_E42pcKnhRw" mandatoryInput="_k-lK4PaAEe2_E42pcKnhRw" output="_k-lK4PaAEe2_E42pcKnhRw">
+            <methodElementProperty xmi:id="_BZaMwPaBEe2_E42pcKnhRw" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_LCOhIPaBEe2_E42pcKnhRw" name="modelar_requisitos_y_funcionalidades" guid="_LCOhIPaBEe2_E42pcKnhRw" presentationName="modelar requisitos y funcionalidades">
+          <methodElementProperty xmi:id="_LCOhIfaBEe2_E42pcKnhRw" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_gE7e4PaBEe2_E42pcKnhRw" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_NyJEAPaBEe2_E42pcKnhRw" name="diagrama_de_clases" guid="_NyJEAPaBEe2_E42pcKnhRw" presentationName="diagrama de clases" briefDescription="Un diagrama de clases es una herramienta visual poderosa que ayuda a comprender la estructura del sistema y las interacciones entre las clases. Es utilizado tanto por los desarrolladores como por los analistas para comunicar y modelar la estructura del software.">
+            <methodElementProperty xmi:id="_gFA-cPaBEe2_E42pcKnhRw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_POBMIPaBEe2_E42pcKnhRw" name="identificar_el_requisito" guid="_POBMIPaBEe2_E42pcKnhRw" presentationName="identificar el requisito" briefDescription="Al identificar los requisitos de manera exhaustiva y precisa, se sienta una base sólida para el desarrollo y la implementación exitosa del proyecto de software. Esto garantiza que las funcionalidades y características del sistema cumplan con las expectativas y necesidades de los usuarios finales y demás interesados." performedBy="_rrMz4PaAEe2_E42pcKnhRw">
+            <methodElementProperty xmi:id="_gFKvcPaBEe2_E42pcKnhRw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_Q4ETIPaBEe2_E42pcKnhRw" name="identificar_entidades_e_informacion_relevante_para_el_modelador" guid="_Q4ETIPaBEe2_E42pcKnhRw" presentationName="identificar entidades e informacion relevante para el modelador" briefDescription="Al identificar las entidades y la información relevante, el modelador establece una base sólida para el diseño y desarrollo posterior del sistema. Esto garantiza que el modelo de datos y las funcionalidades del software reflejen con precisión el dominio del problema y satisfagan las necesidades de los usuarios finales y demás interesados." performedBy="_rrMz4PaAEe2_E42pcKnhRw">
+            <methodElementProperty xmi:id="_gFT5YPaBEe2_E42pcKnhRw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_XFwkcPaBEe2_E42pcKnhRw" name="crear_diagrama_de_clases" guid="_XFwkcPaBEe2_E42pcKnhRw" presentationName="crear diagrama de clases" briefDescription="Un diagrama de clases es una herramienta visual poderosa que ayuda a comprender la estructura del sistema y las interacciones entre las clases. Es utilizado tanto por los desarrolladores como por los analistas para comunicar y modelar la estructura del software." performedBy="_rrMz4PaAEe2_E42pcKnhRw" mandatoryInput="_NyJEAPaBEe2_E42pcKnhRw" output="_NyJEAPaBEe2_E42pcKnhRw">
+            <methodElementProperty xmi:id="_gFT5YvaBEe2_E42pcKnhRw" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_lWna8PaBEe2_E42pcKnhRw" name="programar_diseno_de_interfaces" guid="_lWna8PaBEe2_E42pcKnhRw" presentationName="programar diseno de interfaces">
+          <methodElementProperty xmi:id="_lWna8faBEe2_E42pcKnhRw" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_EkGxsPaCEe2_E42pcKnhRw" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_p3F8gPaBEe2_E42pcKnhRw" name="interfaz_de_usuario" guid="_p3F8gPaBEe2_E42pcKnhRw" presentationName="interfaz de usuario" briefDescription="La interfaz de usuario (UI, por sus siglas en inglés) por parte del desarrollador frontend se refiere a la implementación visual y funcional de la parte de un sistema de software con la cual los usuarios interactúan directamente. Es la capa visible y tangible de una aplicación, a través de la cual los usuarios pueden realizar acciones, ingresar información y recibir retroalimentación.">
+            <methodElementProperty xmi:id="_EkQisPaCEe2_E42pcKnhRw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_rwRrsPaBEe2_E42pcKnhRw" name="identificar_puntos_claves_de_la_interfaz" guid="_rwRrsPaBEe2_E42pcKnhRw" presentationName="identificar puntos claves de la interfaz" briefDescription="El desarrollador frontend se enfoca en varios puntos clave al implementar la interfaz de usuario en un proyecto de software. Estos puntos clave son fundamentales para garantizar una interfaz efectiva y atractiva para los usuarios." performedBy="_ALR60PaDEe2_E42pcKnhRw" mandatoryInput="_p3F8gPaBEe2_E42pcKnhRw">
+            <methodElementProperty xmi:id="_EkZsoPaCEe2_E42pcKnhRw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_wFA3UPaBEe2_E42pcKnhRw" name="identificar_funcionalidades_asociadas_a_la_interfaz" guid="_wFA3UPaBEe2_E42pcKnhRw" presentationName="identificar funcionalidades asociadas a la interfaz" briefDescription="El desarrollador frontend es responsable de implementar las funcionalidades asociadas a la interfaz de usuario en un proyecto de software. Estas funcionalidades están enfocadas en la interacción y la experiencia del usuario. " performedBy="_ALR60PaDEe2_E42pcKnhRw" mandatoryInput="_p3F8gPaBEe2_E42pcKnhRw">
+            <methodElementProperty xmi:id="_EkZsovaCEe2_E42pcKnhRw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_0yn18PaBEe2_E42pcKnhRw" name="crear_interfaz" guid="_0yn18PaBEe2_E42pcKnhRw" presentationName="crear interfaz" briefDescription="la tarea de crear la interfaz por parte del desarrollador frontend implica traducir el diseño en código HTML, CSS y JavaScript, definir la estructura y los estilos de la interfaz, implementar la interactividad y la funcionalidad, asegurarse de la responsividad y adaptabilidad, realizar pruebas y depuración, y colaborar con el equipo para garantizar una implementación exitosa de la interfaz de usuario." performedBy="_ALR60PaDEe2_E42pcKnhRw" mandatoryInput="_p3F8gPaBEe2_E42pcKnhRw" output="_p3F8gPaBEe2_E42pcKnhRw">
+            <methodElementProperty xmi:id="_EkjdoPaCEe2_E42pcKnhRw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_ALR60PaDEe2_E42pcKnhRw" name="desarrollador_frontend" guid="_ALR60PaDEe2_E42pcKnhRw" presentationName="desarrollador frontend" briefDescription="Un desarrollador frontend en un proyecto de software es responsable de crear y mantener la interfaz de usuario y la experiencia del usuario en la parte visible de una aplicación o sitio web. Su objetivo principal es traducir los diseños y requisitos funcionales en código HTML, CSS y JavaScript que los usuarios puedan interactuar directamente." responsibleFor="_p3F8gPaBEe2_E42pcKnhRw __G2z8PaDEe2_E42pcKnhRw _hUyc4PaEEe2_E42pcKnhRw">
+            <methodElementProperty xmi:id="_QzQZsPaDEe2_E42pcKnhRw" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_0hhpcPaCEe2_E42pcKnhRw" name="conectarse_a_la_base_de_datos" guid="_0hhpcPaCEe2_E42pcKnhRw" presentationName="conectarse a la base de datos">
+          <methodElementProperty xmi:id="_0hracPaCEe2_E42pcKnhRw" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_QnGNAPaDEe2_E42pcKnhRw" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_gtheAPaDEe2_E42pcKnhRw" name="base_de_datos_conectada" guid="_gtheAPaDEe2_E42pcKnhRw" presentationName="base de datos conectada" briefDescription="Al tener la base de datos conectada en la etapa de implementación, la aplicación puede interactuar directamente con la base de datos, lo que permite almacenar y recuperar datos de forma dinámica, mantener la consistencia y la integridad de los datos y ofrecer una experiencia de usuario fluida y actualizada en tiempo real.">
+            <methodElementProperty xmi:id="_7DnA8PaDEe2_E42pcKnhRw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_ibKrkPaDEe2_E42pcKnhRw" name="crear_base_de_datos" guid="_ibKrkPaDEe2_E42pcKnhRw" presentationName="crear base de datos" briefDescription="proceso de diseño y creación de la estructura y los elementos necesarios para almacenar y organizar los datos de manera eficiente. " performedBy="_rrMz4PaAEe2_E42pcKnhRw">
+            <methodElementProperty xmi:id="_7Dwx8PaDEe2_E42pcKnhRw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_rjY0UPaDEe2_E42pcKnhRw" name="involucrar_librerias_en_el_codigo" guid="_rjY0UPaDEe2_E42pcKnhRw" presentationName="involucrar librerias en el codigo" performedBy="_rrMz4PaAEe2_E42pcKnhRw">
+            <methodElementProperty xmi:id="_7D574PaDEe2_E42pcKnhRw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_vHX4cPaDEe2_E42pcKnhRw" name="asociar_base_de_datos_al_codigo" guid="_vHX4cPaDEe2_E42pcKnhRw" presentationName="asociar base de datos al codigo" briefDescription="Al asociar la base de datos al código, nos referimos a establecer la conexión y la integración entre la aplicación de software y la base de datos que almacenará y gestionará los datos del sistema. Esto implica configurar y utilizar las bibliotecas, los controladores o los ORM (Object-Relational Mapping) correspondientes en el código para interactuar con la base de datos." performedBy="_rrMz4PaAEe2_E42pcKnhRw" mandatoryInput="_gtheAPaDEe2_E42pcKnhRw" output="_gtheAPaDEe2_E42pcKnhRw">
+            <methodElementProperty xmi:id="_7D574vaDEe2_E42pcKnhRw" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9C2U0PaDEe2_E42pcKnhRw" name="conectar_frontend_con_la_app" guid="_9C2U0PaDEe2_E42pcKnhRw" presentationName="conectar frontend con la app">
+          <methodElementProperty xmi:id="_9C2U0faDEe2_E42pcKnhRw" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_W2AJ0PaEEe2_E42pcKnhRw" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="__G2z8PaDEe2_E42pcKnhRw" name="interfaz_y_controlador_asociados" guid="__G2z8PaDEe2_E42pcKnhRw" presentationName="interfaz y controlador asociados">
+            <methodElementProperty xmi:id="_W2JTwfaEEe2_E42pcKnhRw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_CMlOwPaEEe2_E42pcKnhRw" name="crear_controlador_de_la_interfaz" guid="_CMlOwPaEEe2_E42pcKnhRw" presentationName="crear controlador de la interfaz" briefDescription="Al crear un controlador de la interfaz al momento de conectarla con la aplicación de un proyecto de software, se está diseñando la capa de control que se encargará de gestionar las interacciones y acciones realizadas por el usuario en la interfaz." performedBy="_ALR60PaDEe2_E42pcKnhRw">
+            <methodElementProperty xmi:id="_W2TEwPaEEe2_E42pcKnhRw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_HUfjwPaEEe2_E42pcKnhRw" name="crear_variables_asociadas_a_widget" guid="_HUfjwPaEEe2_E42pcKnhRw" presentationName="crear variables asociadas a widget" briefDescription="Al crear variables asociadas a un widget al momento de conectar la interfaz con la aplicación de un proyecto de software, se están creando variables que almacenarán y gestionarán los datos o el estado del widget en la aplicación." performedBy="_ALR60PaDEe2_E42pcKnhRw">
+            <methodElementProperty xmi:id="_W2cOsPaEEe2_E42pcKnhRw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_Mk1cAPaEEe2_E42pcKnhRw" name="conectar_controlador_con_la_interfaz" guid="_Mk1cAPaEEe2_E42pcKnhRw" presentationName="conectar controlador con la interfaz" briefDescription="Cuando se conecta un controlador con la interfaz al momento de conectar la interfaz con la aplicación de un proyecto de software, se establece la comunicación y la interacción entre los elementos de la interfaz y la lógica de control de la aplicación." performedBy="_ALR60PaDEe2_E42pcKnhRw" mandatoryInput="__G2z8PaDEe2_E42pcKnhRw" output="__G2z8PaDEe2_E42pcKnhRw">
+            <methodElementProperty xmi:id="_W2cOsvaEEe2_E42pcKnhRw" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_dcXZ0PaEEe2_E42pcKnhRw" name="programar_servicios_y_controladores" guid="_dcXZ0PaEEe2_E42pcKnhRw" presentationName="programar servicios y controladores">
+          <methodElementProperty xmi:id="_dcXZ0faEEe2_E42pcKnhRw" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_sEKJoPaEEe2_E42pcKnhRw" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_hUyc4PaEEe2_E42pcKnhRw" name="programa_funcional" guid="_hUyc4PaEEe2_E42pcKnhRw" presentationName="programa funcional">
+            <methodElementProperty xmi:id="_sETTkPaEEe2_E42pcKnhRw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_jDjr0PaEEe2_E42pcKnhRw" name="crear_metodos_asociados_a_la_interfaz" guid="_jDjr0PaEEe2_E42pcKnhRw" presentationName="crear metodos asociados a la interfaz" performedBy="_ALR60PaDEe2_E42pcKnhRw" mandatoryInput="_hUyc4PaEEe2_E42pcKnhRw" output="_hUyc4PaEEe2_E42pcKnhRw">
+            <methodElementProperty xmi:id="_sEdEkPaEEe2_E42pcKnhRw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_CxQMoPaFEe2_E42pcKnhRw" name="crear_metodos_de_persistencia" guid="_CxQMoPaFEe2_E42pcKnhRw" presentationName="crear metodos de persistencia" performedBy="_rrMz4PaAEe2_E42pcKnhRw _ALR60PaDEe2_E42pcKnhRw">
+            <methodElementProperty xmi:id="_VapwsPaFEe2_E42pcKnhRw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_HIVhoPaFEe2_E42pcKnhRw" name="crear_entidades" guid="_HIVhoPaFEe2_E42pcKnhRw" presentationName="crear entidades" performedBy="_ALR60PaDEe2_E42pcKnhRw _rrMz4PaAEe2_E42pcKnhRw">
+            <methodElementProperty xmi:id="_VazhsPaFEe2_E42pcKnhRw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_LPMpUPaFEe2_E42pcKnhRw" name="crear_metodos_en_el_controlador_de_la_interfaz" guid="_LPMpUPaFEe2_E42pcKnhRw" presentationName="crear metodos en el controlador de la interfaz" performedBy="_rrMz4PaAEe2_E42pcKnhRw _ALR60PaDEe2_E42pcKnhRw" mandatoryInput="_hUyc4PaEEe2_E42pcKnhRw">
+            <methodElementProperty xmi:id="_Va8roPaFEe2_E42pcKnhRw" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_Oli5HfQfEe2JFv2GBsKE7Q" name="CapabilityPatterns" guid="_Oli5HfQfEe2JFv2GBsKE7Q"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_Oli5HvQfEe2JFv2GBsKE7Q" name="DeliveryProcesses" guid="_Oli5HvQfEe2JFv2GBsKE7Q"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_Oli5H_QfEe2JFv2GBsKE7Q" name="ProcessContributions" guid="_Oli5H_QfEe2JFv2GBsKE7Q"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-TBeek9mXU1y6R0LJF8a5lg" name="priorizar_funcionalidades,_6sK6sPZqEe2gYZzTouN9Vg" guid="-TBeek9mXU1y6R0LJF8a5lg" changeDate="2023-05-22T19:23:26.298-0500">
+  <purpose>tomar decisiones sobre que funcionalidades deben ir primero</purpose>
+</org.eclipse.epf.uma:TaskDescription>

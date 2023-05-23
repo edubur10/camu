@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_Ns8rIO6jEe2LC_-quPiNrg" guid="_Ns8rIO6jEe2LC_-quPiNrg">
+    <resourceDescriptors xmi:id="_ys2T4PQeEe2JFv2GBsKE7Q" id="-dp6FWli45RrrQADZaQhAgQ" uri="tasks/Identificar_el_sector_donde_se_presento_el_problema.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_Ns3yoO6jEe2LC_-quPiNrg" name="modelado_de_negocio" guid="_Ns3yoO6jEe2LC_-quPiNrg" presentationName="modelado de negocio" briefDescription="El modelado de negocio de un proyecto de software se refiere a la representación y descripción de cómo funcionará el negocio o la organización que utilizará el software. Es el proceso de comprender, analizar y documentar los aspectos relacionados con el funcionamiento y los procesos comerciales del cliente o usuario final." authors="Eduardo Esteban Burbano Cordoba y Andres Felipe Aristizabal" changeDate="2023-05-19T17:05:21.569-0500" version="version 1.0">
+    <methodElementProperty xmi:id="_Xr2kQO6jEe2LC_-quPiNrg" name="me_edited" value="true"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Ns3yoe6jEe2LC_-quPiNrg" name="Content" guid="_Ns3yoe6jEe2LC_-quPiNrg">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Ns3you6jEe2LC_-quPiNrg" name="Categories" guid="_Ns3you6jEe2LC_-quPiNrg">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Ns3yo-6jEe2LC_-quPiNrg" name="Domains" guid="_Ns3yo-6jEe2LC_-quPiNrg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Ns3ypO6jEe2LC_-quPiNrg" name="Disciplines" guid="_Ns3ypO6jEe2LC_-quPiNrg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Ns3ype6jEe2LC_-quPiNrg" name="RoleSets" guid="_Ns3ype6jEe2LC_-quPiNrg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Ns3ypu6jEe2LC_-quPiNrg" name="WP Types" guid="_Ns3ypu6jEe2LC_-quPiNrg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Ns3yp-6jEe2LC_-quPiNrg" name="Tools" guid="_Ns3yp-6jEe2LC_-quPiNrg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Ns3yqO6jEe2LC_-quPiNrg" name="StandardCategories" guid="_Ns3yqO6jEe2LC_-quPiNrg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Ns3yqe6jEe2LC_-quPiNrg" name="CustomCategories" guid="_Ns3yqe6jEe2LC_-quPiNrg">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Ns3yqu6jEe2LC_-quPiNrg" name="Hidden" guid="_Ns3yqu6jEe2LC_-quPiNrg">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_Ns3yq-6jEe2LC_-quPiNrg" name="Custom Categories" guid="_Ns3yq-6jEe2LC_-quPiNrg"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Ns3yrO6jEe2LC_-quPiNrg" name="CoreContent" guid="_Ns3yrO6jEe2LC_-quPiNrg">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_uTk3sO6mEe2LC_-quPiNrg" name="detectar_problemas_a_solucionar" guid="_uTk3sO6mEe2LC_-quPiNrg" presentationName="Detectar problemas a solucionar">
+          <methodElementProperty xmi:id="_uTk3se6mEe2LC_-quPiNrg" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_0sx1cO6mEe2LC_-quPiNrg" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_3ABDYO6mEe2LC_-quPiNrg" name="lider_de_proyecto" guid="_3ABDYO6mEe2LC_-quPiNrg" presentationName="Lider de proyecto" briefDescription="El líder de proyecto de software desempeña un papel crucial en la planificación, coordinación y liderazgo del equipo de desarrollo para garantizar la entrega exitosa del software. Su enfoque está en liderar y motivar al equipo, comunicarse eficazmente con los stakeholders y gestionar los riesgos y la calidad del proyecto." responsibleFor="_MLkCkPQiEe2wQteYYU8Mgg _xct70PZaEe2IOaTIFHQzew _gZVd4PZbEe2IOaTIFHQzew _fyhjQPZgEe2IOaTIFHQzew">
+            <methodElementProperty xmi:id="_7h4FAO6mEe2LC_-quPiNrg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_IEvIoO6nEe2LC_-quPiNrg" name="Identificar_el_sector_donde_se_presento_el_problema" guid="_IEvIoO6nEe2LC_-quPiNrg" presentationName="Identificar el sector donde se presento el problema" performedBy="_3ABDYO6mEe2LC_-quPiNrg" mandatoryInput="_MLkCkPQiEe2wQteYYU8Mgg">
+            <methodElementProperty xmi:id="_tRcJMPQgEe2JFv2GBsKE7Q" name="me_edited" value="true"/>
+            <presentation xmi:id="-dp6FWli45RrrQADZaQhAgQ" href="uma://-dp6FWli45RrrQADZaQhAgQ#-dp6FWli45RrrQADZaQhAgQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_Va0HwPQfEe2JFv2GBsKE7Q" name="informar_sobre_el_problema_al_gerente" guid="_Va0HwPQfEe2JFv2GBsKE7Q" presentationName="informar sobre el problema al gerente" performedBy="_3ABDYO6mEe2LC_-quPiNrg" mandatoryInput="_MLkCkPQiEe2wQteYYU8Mgg">
+            <methodElementProperty xmi:id="_tRlTIPQgEe2JFv2GBsKE7Q" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_MLkCkPQiEe2wQteYYU8Mgg" name="estructura_de_proceso" guid="_MLkCkPQiEe2wQteYYU8Mgg" presentationName="estructura de proceso">
+            <methodElementProperty xmi:id="_Pas4EPQiEe2wQteYYU8Mgg" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_agEKUPQfEe2JFv2GBsKE7Q" name="analizar_el_problema" guid="_agEKUPQfEe2JFv2GBsKE7Q" presentationName="analizar el problema" briefDescription="Durante el análisis del problema, se recopila información relevante, se identifican las variables clave y se exploran las relaciones entre ellas. Esto implica investigar las causas subyacentes, examinar los factores que contribuyen al problema y evaluar su impacto en diferentes aspectos.&#xD;&#xA;&#xD;&#xA;Al analizar un problema, es importante considerar diversos enfoques y perspectivas para obtener una comprensión integral. Esto puede incluir realizar investigaciones, recopilar datos, realizar entrevistas o utilizar herramientas analíticas. El objetivo es identificar los factores fundamentales que están contribuyendo al problema y determinar las posibles soluciones o acciones que pueden abordarlo de manera efectiva.">
+          <methodElementProperty xmi:id="_agEKUfQfEe2JFv2GBsKE7Q" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_tRsA0PQgEe2JFv2GBsKE7Q" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_gRVlYPQfEe2JFv2GBsKE7Q" name="analizar_causas_del_problema" guid="_gRVlYPQfEe2JFv2GBsKE7Q" presentationName="analizar causas del problema" performedBy="_sBJbcPQfEe2JFv2GBsKE7Q" mandatoryInput="_VqAS8PQiEe2wQteYYU8Mgg">
+            <methodElementProperty xmi:id="_tRw5UPQgEe2JFv2GBsKE7Q" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_jQEAUPQfEe2JFv2GBsKE7Q" name="determinar_el_impacto_del_problema_en_la_organizacion" guid="_jQEAUPQfEe2JFv2GBsKE7Q" presentationName="determinar el impacto del problema en la organizacion" performedBy="_sBJbcPQfEe2JFv2GBsKE7Q" mandatoryInput="_VqAS8PQiEe2wQteYYU8Mgg">
+            <methodElementProperty xmi:id="_tR3nAPQgEe2JFv2GBsKE7Q" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_mJ3fAPQfEe2JFv2GBsKE7Q" name="identificar_las_posibles_soluciones" guid="_mJ3fAPQfEe2JFv2GBsKE7Q" presentationName="identificar las posibles soluciones" performedBy="_sBJbcPQfEe2JFv2GBsKE7Q" mandatoryInput="_VqAS8PQiEe2wQteYYU8Mgg">
+            <methodElementProperty xmi:id="_tR-7wPQgEe2JFv2GBsKE7Q" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_sBJbcPQfEe2JFv2GBsKE7Q" name="gerente_de_proyecto" guid="_sBJbcPQfEe2JFv2GBsKE7Q" presentationName="gerente de proyecto" briefDescription="El gerente de un proyecto de software es el encargado de planificar, coordinar y supervisar todas las actividades relacionadas con el desarrollo y la implementación del software. Su función principal es garantizar que el proyecto se complete exitosamente, cumpliendo con los objetivos establecidos, dentro del presupuesto y en el tiempo estimado." responsibleFor="_msZVkPQlEe2wQteYYU8Mgg _xct70PZaEe2IOaTIFHQzew _gZVd4PZbEe2IOaTIFHQzew _fyhjQPZgEe2IOaTIFHQzew _VqAS8PQiEe2wQteYYU8Mgg">
+            <methodElementProperty xmi:id="_tSD0QPQgEe2JFv2GBsKE7Q" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_VqAS8PQiEe2wQteYYU8Mgg" name="diagrama_de_espina_de_pescado" guid="_VqAS8PQiEe2wQteYYU8Mgg" presentationName="diagrama de espina de pescado">
+            <methodElementProperty xmi:id="_YP5XIPQiEe2wQteYYU8Mgg" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_wSOPEPQfEe2JFv2GBsKE7Q" name="guardar_informacion" guid="_wSOPEPQfEe2JFv2GBsKE7Q" presentationName="guardar informacion">
+          <methodElementProperty xmi:id="_wSOPEfQfEe2JFv2GBsKE7Q" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_tSJ64PQgEe2JFv2GBsKE7Q" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_yMotUPQfEe2JFv2GBsKE7Q" name="etiquetar_la_informacion" guid="_yMotUPQfEe2JFv2GBsKE7Q" presentationName="etiquetar la informacion" performedBy="_sBJbcPQfEe2JFv2GBsKE7Q _LpyHAPQpEe2wQteYYU8Mgg" mandatoryInput="_mbc24PQiEe2wQteYYU8Mgg">
+            <methodElementProperty xmi:id="_tSTE0PQgEe2JFv2GBsKE7Q" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_0tVvgPQfEe2JFv2GBsKE7Q" name="actualizar_informacion" guid="_0tVvgPQfEe2JFv2GBsKE7Q" presentationName="actualizar informacion" performedBy="_sBJbcPQfEe2JFv2GBsKE7Q _LpyHAPQpEe2wQteYYU8Mgg" mandatoryInput="_mbc24PQiEe2wQteYYU8Mgg">
+            <methodElementProperty xmi:id="_tSX9UPQgEe2JFv2GBsKE7Q" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_mbc24PQiEe2wQteYYU8Mgg" name="informe_de_almacenamiento" guid="_mbc24PQiEe2wQteYYU8Mgg" presentationName="informe de almacenamiento">
+            <methodElementProperty xmi:id="_qAIekPQiEe2wQteYYU8Mgg" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_R66qsPQlEe2wQteYYU8Mgg" name="informar_acerca_del_problema" guid="_R66qsPQlEe2wQteYYU8Mgg" presentationName="informar acerca del problema">
+          <methodElementProperty xmi:id="_R66qsfQlEe2wQteYYU8Mgg" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_ZuX_8PQlEe2wQteYYU8Mgg" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_fai4kPQlEe2wQteYYU8Mgg" name="recopilar_y_organizar_informacion_relevante" guid="_fai4kPQlEe2wQteYYU8Mgg" presentationName="recopilar y organizar informacion relevante" performedBy="_sBJbcPQfEe2JFv2GBsKE7Q" mandatoryInput="_msZVkPQlEe2wQteYYU8Mgg">
+            <methodElementProperty xmi:id="_jWctcPQlEe2wQteYYU8Mgg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_msZVkPQlEe2wQteYYU8Mgg" name="informe_detallado_del_problema" guid="_msZVkPQlEe2wQteYYU8Mgg" presentationName="informe detallado del problema">
+            <methodElementProperty xmi:id="_n-VekPQlEe2wQteYYU8Mgg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_rz8eMPQlEe2wQteYYU8Mgg" name="presentar_posibles_soluciones" guid="_rz8eMPQlEe2wQteYYU8Mgg" presentationName="presentar posibles soluciones" performedBy="_sBJbcPQfEe2JFv2GBsKE7Q" mandatoryInput="_msZVkPQlEe2wQteYYU8Mgg">
+            <methodElementProperty xmi:id="_tHjbIPQlEe2wQteYYU8Mgg" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_MNsMsPQmEe2wQteYYU8Mgg" name="analizar_procesos_del_modulo" guid="_MNsMsPQmEe2wQteYYU8Mgg" presentationName="analizar procesos del modulo">
+          <methodElementProperty xmi:id="_MNszwPQmEe2wQteYYU8Mgg" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_OUm14PQmEe2wQteYYU8Mgg" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_QGr3gPQmEe2wQteYYU8Mgg" name="analista_de_negocio" guid="_QGr3gPQmEe2wQteYYU8Mgg" presentationName="analista de negocio" briefDescription="El analista de negocio se centra en entender las necesidades del negocio y traducirlas en requerimientos claros y comprensibles para el equipo de desarrollo. Su objetivo es asegurar que el software desarrollado satisfaga las expectativas y objetivos del negocio, logrando así una solución eficiente y efectiva." responsibleFor="_SfEEIPQmEe2wQteYYU8Mgg _AnBPEPQnEe2wQteYYU8Mgg _BMh6cPQoEe2wQteYYU8Mgg _ACFOoPQqEe2wQteYYU8Mgg _7ehp4PZYEe2IOaTIFHQzew _gZVd4PZbEe2IOaTIFHQzew">
+            <methodElementProperty xmi:id="_RPsuAPQmEe2wQteYYU8Mgg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_SfEEIPQmEe2wQteYYU8Mgg" name="planilla_de_procesos" guid="_SfEEIPQmEe2wQteYYU8Mgg" presentationName="Planilla de procesos">
+            <methodElementProperty xmi:id="_TupcsPQmEe2wQteYYU8Mgg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_XAXsIPQmEe2wQteYYU8Mgg" name="identificacion_y_documentacion_de_procesos" guid="_XAXsIPQmEe2wQteYYU8Mgg" presentationName="identificacion y documentacion de procesos" performedBy="_QGr3gPQmEe2wQteYYU8Mgg" mandatoryInput="_SfEEIPQmEe2wQteYYU8Mgg">
+            <methodElementProperty xmi:id="_YZgpUPQmEe2wQteYYU8Mgg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_fpCLEPQmEe2wQteYYU8Mgg" name="descripcion_de_pasos_y_procedimientos" guid="_fpCLEPQmEe2wQteYYU8Mgg" presentationName="descripcion de pasos y procedimientos" performedBy="_QGr3gPQmEe2wQteYYU8Mgg" mandatoryInput="_SfEEIPQmEe2wQteYYU8Mgg">
+            <methodElementProperty xmi:id="_hhh9wPQmEe2wQteYYU8Mgg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_pR0qQPQmEe2wQteYYU8Mgg" name="asignacion_de_responsabilidades" guid="_pR0qQPQmEe2wQteYYU8Mgg" presentationName="asignacion de responsabilidades" performedBy="_QGr3gPQmEe2wQteYYU8Mgg" mandatoryInput="_SfEEIPQmEe2wQteYYU8Mgg">
+            <methodElementProperty xmi:id="_qteI4PQmEe2wQteYYU8Mgg" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_xp36UPQmEe2wQteYYU8Mgg" name="identificar_los_procesos_del_modulo" guid="_xp36UPQmEe2wQteYYU8Mgg" presentationName="identificar los procesos del modulo">
+          <methodElementProperty xmi:id="_xp36UfQmEe2wQteYYU8Mgg" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="__Pjs4PQmEe2wQteYYU8Mgg" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_AnBPEPQnEe2wQteYYU8Mgg" name="lista_de_procesos_del_modulo" guid="_AnBPEPQnEe2wQteYYU8Mgg" presentationName="lista de procesos del modulo">
+            <methodElementProperty xmi:id="_CxEr0PQnEe2wQteYYU8Mgg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_Grf6APQnEe2wQteYYU8Mgg" name="analisis_de_actividades_y_operaciones" guid="_Grf6APQnEe2wQteYYU8Mgg" presentationName="analisis de actividades y operaciones" performedBy="_QGr3gPQmEe2wQteYYU8Mgg" mandatoryInput="_AnBPEPQnEe2wQteYYU8Mgg">
+            <methodElementProperty xmi:id="_IgY_EPQnEe2wQteYYU8Mgg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_Ty_UsPQnEe2wQteYYU8Mgg" name="identificar_puntos_de_entrada_y_salida" guid="_Ty_UsPQnEe2wQteYYU8Mgg" presentationName="identificar puntos de entrada y salida" performedBy="_QGr3gPQmEe2wQteYYU8Mgg" mandatoryInput="_AnBPEPQnEe2wQteYYU8Mgg">
+            <methodElementProperty xmi:id="_WEpOQPQnEe2wQteYYU8Mgg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_bERxAPQnEe2wQteYYU8Mgg" name="evalucion_de_eficiencia_y_efectividad" guid="_bERxAPQnEe2wQteYYU8Mgg" presentationName="evalucion de eficiencia y efectividad" performedBy="_QGr3gPQmEe2wQteYYU8Mgg" mandatoryInput="_AnBPEPQnEe2wQteYYU8Mgg">
+            <methodElementProperty xmi:id="_dKlWMPQnEe2wQteYYU8Mgg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_jo9H0PQnEe2wQteYYU8Mgg" name="documentacion_y_almacenamiento_de_procesos" guid="_jo9H0PQnEe2wQteYYU8Mgg" presentationName="documentacion y almacenamiento de procesos" performedBy="_QGr3gPQmEe2wQteYYU8Mgg" mandatoryInput="_AnBPEPQnEe2wQteYYU8Mgg">
+            <methodElementProperty xmi:id="_mabJ4PQnEe2wQteYYU8Mgg" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_7MbZMPQnEe2wQteYYU8Mgg" name="definir_el_problema_relacionado_al_modulo" guid="_7MbZMPQnEe2wQteYYU8Mgg" presentationName="definir el problema relacionado al modulo">
+          <methodElementProperty xmi:id="_7MbZMfQnEe2wQteYYU8Mgg" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="__NEkIPQnEe2wQteYYU8Mgg" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_BMh6cPQoEe2wQteYYU8Mgg" name="informe_de_definicion_de_los_procesos_del_problema" guid="_BMh6cPQoEe2wQteYYU8Mgg" presentationName="informe de definicion de los procesos del problema">
+            <methodElementProperty xmi:id="_DmmJIPQoEe2wQteYYU8Mgg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_RPeZoPQoEe2wQteYYU8Mgg" name="analisis_de_causas_y_efecto" guid="_RPeZoPQoEe2wQteYYU8Mgg" presentationName="analisis de causas y efecto" performedBy="_QGr3gPQmEe2wQteYYU8Mgg" mandatoryInput="_BMh6cPQoEe2wQteYYU8Mgg">
+            <methodElementProperty xmi:id="_TRacMPQoEe2wQteYYU8Mgg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_YLS8QPQoEe2wQteYYU8Mgg" name="definicion_de_los_objetivos" guid="_YLS8QPQoEe2wQteYYU8Mgg" presentationName="definicion de los objetivos" performedBy="_QGr3gPQmEe2wQteYYU8Mgg" mandatoryInput="_BMh6cPQoEe2wQteYYU8Mgg">
+            <methodElementProperty xmi:id="_aaleUPQoEe2wQteYYU8Mgg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_eD2EAPQoEe2wQteYYU8Mgg" name="identificacion_de_las_partes_interesadas" guid="_eD2EAPQoEe2wQteYYU8Mgg" presentationName="identificacion de las partes interesadas" performedBy="_QGr3gPQmEe2wQteYYU8Mgg" mandatoryInput="_BMh6cPQoEe2wQteYYU8Mgg">
+            <methodElementProperty xmi:id="_lJ45oPQoEe2wQteYYU8Mgg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_sxCRMPQoEe2wQteYYU8Mgg" name="analisis_de_impacto" guid="_sxCRMPQoEe2wQteYYU8Mgg" presentationName="analisis de impacto" performedBy="_QGr3gPQmEe2wQteYYU8Mgg" mandatoryInput="_BMh6cPQoEe2wQteYYU8Mgg">
+            <methodElementProperty xmi:id="_vcvpgPQoEe2wQteYYU8Mgg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_0polIPQoEe2wQteYYU8Mgg" name="definir_limites_y_alcance" guid="_0polIPQoEe2wQteYYU8Mgg" presentationName="definir limites y alcance" performedBy="_QGr3gPQmEe2wQteYYU8Mgg" mandatoryInput="_BMh6cPQoEe2wQteYYU8Mgg">
+            <methodElementProperty xmi:id="_2ew6wPQoEe2wQteYYU8Mgg" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_IBi1APQpEe2wQteYYU8Mgg" name="definir_roles_y_personas_involucradas" guid="_IBi1APQpEe2wQteYYU8Mgg" presentationName="definir roles y personas involucradas">
+          <methodElementProperty xmi:id="_IBjcEPQpEe2wQteYYU8Mgg" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_K2qoAPQpEe2wQteYYU8Mgg" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_LpyHAPQpEe2wQteYYU8Mgg" name="arquitecto_de_software" guid="_LpyHAPQpEe2wQteYYU8Mgg" presentationName="arquitecto de software" briefDescription="Un arquitecto de software desempeña un papel crucial en un proyecto de software, encargándose del diseño y la estructura general del sistema. Su objetivo principal es garantizar que el software sea eficiente, escalable, robusto y cumpla con los requisitos funcionales y no funcionales del proyecto." responsibleFor="_O9xnUPQpEe2wQteYYU8Mgg _ACFOoPQqEe2wQteYYU8Mgg _mbc24PQiEe2wQteYYU8Mgg">
+            <methodElementProperty xmi:id="_OKwO8PQpEe2wQteYYU8Mgg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_O9xnUPQpEe2wQteYYU8Mgg" name="roles_del_modulo" guid="_O9xnUPQpEe2wQteYYU8Mgg" presentationName="roles del modulo">
+            <methodElementProperty xmi:id="_RUni4PQpEe2wQteYYU8Mgg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_V9DtoPQpEe2wQteYYU8Mgg" name="descripcion_de_roles_y_responsabilidades" guid="_V9DtoPQpEe2wQteYYU8Mgg" presentationName="descripcion de roles y responsabilidades" performedBy="_LpyHAPQpEe2wQteYYU8Mgg" mandatoryInput="_O9xnUPQpEe2wQteYYU8Mgg">
+            <methodElementProperty xmi:id="_bj9EsPQpEe2wQteYYU8Mgg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_cXuD8PQpEe2wQteYYU8Mgg" name="asignacion_de_roles_a_personas" guid="_cXuD8PQpEe2wQteYYU8Mgg" presentationName="asignacion de roles a personas" performedBy="_LpyHAPQpEe2wQteYYU8Mgg" mandatoryInput="_O9xnUPQpEe2wQteYYU8Mgg">
+            <methodElementProperty xmi:id="_gmzTgPQpEe2wQteYYU8Mgg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_jjd48PQpEe2wQteYYU8Mgg" name="monitoreo_y_ajuste_de_roles" guid="_jjd48PQpEe2wQteYYU8Mgg" presentationName="monitoreo y ajuste de roles" performedBy="_LpyHAPQpEe2wQteYYU8Mgg" mandatoryInput="_O9xnUPQpEe2wQteYYU8Mgg">
+            <methodElementProperty xmi:id="_qt6tcPQpEe2wQteYYU8Mgg" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_tyht8PQpEe2wQteYYU8Mgg" name="definir_requisitos_del_modulo" guid="_tyht8PQpEe2wQteYYU8Mgg" presentationName="definir requisitos del modulo">
+          <methodElementProperty xmi:id="_tyht8fQpEe2wQteYYU8Mgg" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_z5cB0PQpEe2wQteYYU8Mgg" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_ACFOoPQqEe2wQteYYU8Mgg" name="listado_de_requisitos_detallados" guid="_ACFOoPQqEe2wQteYYU8Mgg" presentationName="listado de requisitos detallados ">
+            <methodElementProperty xmi:id="_IuiBYPQqEe2wQteYYU8Mgg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_jM4IcPQqEe2wQteYYU8Mgg" name="identificacion_de_stakeholders" guid="_jM4IcPQqEe2wQteYYU8Mgg" presentationName="identificacion de stakeholders" performedBy="_QGr3gPQmEe2wQteYYU8Mgg _LpyHAPQpEe2wQteYYU8Mgg" mandatoryInput="_ACFOoPQqEe2wQteYYU8Mgg">
+            <methodElementProperty xmi:id="_8sNCgPQqEe2wQteYYU8Mgg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_uouRkPZXEe2IOaTIFHQzew" name="definicion_de_requisitos" guid="_uouRkPZXEe2IOaTIFHQzew" presentationName="definicion de requisitos" performedBy="_QGr3gPQmEe2wQteYYU8Mgg _LpyHAPQpEe2wQteYYU8Mgg" mandatoryInput="_ACFOoPQqEe2wQteYYU8Mgg">
+            <methodElementProperty xmi:id="_3nMocPZXEe2IOaTIFHQzew" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_FzMNEPZYEe2IOaTIFHQzew" name="documentacion_de_requisitos" guid="_FzMNEPZYEe2IOaTIFHQzew" presentationName="documentacion de requisitos" performedBy="_QGr3gPQmEe2wQteYYU8Mgg _LpyHAPQpEe2wQteYYU8Mgg" mandatoryInput="_ACFOoPQqEe2wQteYYU8Mgg">
+            <methodElementProperty xmi:id="_RHyGwPZYEe2IOaTIFHQzew" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_TGLtIPZYEe2IOaTIFHQzew" name="identificacion_de_posibles_cambios" guid="_TGLtIPZYEe2IOaTIFHQzew" presentationName="identificacion de posibles cambios" performedBy="_QGr3gPQmEe2wQteYYU8Mgg _LpyHAPQpEe2wQteYYU8Mgg" mandatoryInput="_ACFOoPQqEe2wQteYYU8Mgg">
+            <methodElementProperty xmi:id="_a0W5wPZYEe2IOaTIFHQzew" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_y-8OcPZYEe2IOaTIFHQzew" name="informar_estado_del_proyecto" guid="_y-8OcPZYEe2IOaTIFHQzew" presentationName="informar estado del proyecto">
+          <methodElementProperty xmi:id="_y-81gPZYEe2IOaTIFHQzew" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_F7U_8PZZEe2IOaTIFHQzew" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_3YeagPZYEe2IOaTIFHQzew" name="comunicacion_con_los_stakeholders" guid="_3YeagPZYEe2IOaTIFHQzew" presentationName="comunicacion con los stakeholders" performedBy="_QGr3gPQmEe2wQteYYU8Mgg" mandatoryInput="_7ehp4PZYEe2IOaTIFHQzew">
+            <methodElementProperty xmi:id="_F7btoPZZEe2IOaTIFHQzew" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_7ehp4PZYEe2IOaTIFHQzew" name="informe_estado_de_proyecto" guid="_7ehp4PZYEe2IOaTIFHQzew" presentationName="informe estado de proyecto">
+            <methodElementProperty xmi:id="_F7k3kPZZEe2IOaTIFHQzew" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_I8yJUPZaEe2IOaTIFHQzew" name="reuniones_de_seguimiento" guid="_I8yJUPZaEe2IOaTIFHQzew" presentationName="reuniones de seguimiento" performedBy="_QGr3gPQmEe2wQteYYU8Mgg" mandatoryInput="_7ehp4PZYEe2IOaTIFHQzew">
+            <methodElementProperty xmi:id="_QVKFEPZaEe2IOaTIFHQzew" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_RdPHcPZaEe2IOaTIFHQzew" name="comunicacion_de_acciones_correctivas" guid="_RdPHcPZaEe2IOaTIFHQzew" presentationName="comunicacion de acciones correctivas" performedBy="_QGr3gPQmEe2wQteYYU8Mgg" mandatoryInput="_7ehp4PZYEe2IOaTIFHQzew">
+            <methodElementProperty xmi:id="_Vi4uMPZaEe2IOaTIFHQzew" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_p-Dx4PZaEe2IOaTIFHQzew" name="revisar_estado_del_proyecto" guid="_p-Dx4PZaEe2IOaTIFHQzew" presentationName="revisar estado del proyecto">
+          <methodElementProperty xmi:id="_p-Dx4fZaEe2IOaTIFHQzew" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_u22s0PZaEe2IOaTIFHQzew" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_xct70PZaEe2IOaTIFHQzew" name="informe_de_estado_y_almacenamiento_del_proyecto" guid="_xct70PZaEe2IOaTIFHQzew" presentationName="informe de estado y almacenamiento del proyecto">
+            <methodElementProperty xmi:id="_9symUPZaEe2IOaTIFHQzew" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_32b28PZaEe2IOaTIFHQzew" name="revisar_informes_y_documentos" guid="_32b28PZaEe2IOaTIFHQzew" presentationName="revisar informes y documentos" performedBy="_sBJbcPQfEe2JFv2GBsKE7Q _3ABDYO6mEe2LC_-quPiNrg" mandatoryInput="_xct70PZaEe2IOaTIFHQzew">
+            <methodElementProperty xmi:id="_9s4s8PZaEe2IOaTIFHQzew" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_LR1fsPZbEe2IOaTIFHQzew" name="analisar_metricas_y_datos" guid="_LR1fsPZbEe2IOaTIFHQzew" presentationName="analisar metricas y datos" performedBy="_sBJbcPQfEe2JFv2GBsKE7Q _3ABDYO6mEe2LC_-quPiNrg" mandatoryInput="_xct70PZaEe2IOaTIFHQzew">
+            <methodElementProperty xmi:id="_QAdK8PZbEe2IOaTIFHQzew" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_QcHzQPZbEe2IOaTIFHQzew" name="registrar_y_documentar_informacion" guid="_QcHzQPZbEe2IOaTIFHQzew" presentationName="registrar y documentar informacion" performedBy="_sBJbcPQfEe2JFv2GBsKE7Q _3ABDYO6mEe2LC_-quPiNrg" mandatoryInput="_xct70PZaEe2IOaTIFHQzew">
+            <methodElementProperty xmi:id="_WhsDUPZbEe2IOaTIFHQzew" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ceZSUPZbEe2IOaTIFHQzew" name="estimar_costos_y_tiempo" guid="_ceZSUPZbEe2IOaTIFHQzew" presentationName="estimar costos y tiempo">
+          <methodElementProperty xmi:id="_ceZSUfZbEe2IOaTIFHQzew" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_2lev8PZbEe2IOaTIFHQzew" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_gZVd4PZbEe2IOaTIFHQzew" name="informe_de_estimacion" guid="_gZVd4PZbEe2IOaTIFHQzew" presentationName="informe de estimacion">
+            <methodElementProperty xmi:id="_2lkPgPZbEe2IOaTIFHQzew" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_smsyoPZbEe2IOaTIFHQzew" name="estimacion_de_la_duracion_de_las_actividades" guid="_smsyoPZbEe2IOaTIFHQzew" presentationName="estimacion de la duracion de las actividades" performedBy="_sBJbcPQfEe2JFv2GBsKE7Q _3ABDYO6mEe2LC_-quPiNrg" mandatoryInput="_gZVd4PZbEe2IOaTIFHQzew" additionallyPerformedBy="_QGr3gPQmEe2wQteYYU8Mgg">
+            <methodElementProperty xmi:id="_2lyR8PZbEe2IOaTIFHQzew" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_8gkOUPZbEe2IOaTIFHQzew" name="estimacion_de_los_recursos_necesarios" guid="_8gkOUPZbEe2IOaTIFHQzew" presentationName="estimacion de los recursos necesarios" performedBy="_sBJbcPQfEe2JFv2GBsKE7Q _3ABDYO6mEe2LC_-quPiNrg" mandatoryInput="_gZVd4PZbEe2IOaTIFHQzew" additionallyPerformedBy="_QGr3gPQmEe2wQteYYU8Mgg">
+            <methodElementProperty xmi:id="_CDg5gPZcEe2IOaTIFHQzew" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_CeY3oPZcEe2IOaTIFHQzew" name="asignacion_de_costos_a_los_recursos" guid="_CeY3oPZcEe2IOaTIFHQzew" presentationName="asignacion de costos a los recursos" performedBy="_sBJbcPQfEe2JFv2GBsKE7Q _3ABDYO6mEe2LC_-quPiNrg" mandatoryInput="_gZVd4PZbEe2IOaTIFHQzew" additionallyPerformedBy="_QGr3gPQmEe2wQteYYU8Mgg">
+            <methodElementProperty xmi:id="_Ms5TAPZcEe2IOaTIFHQzew" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_HZb1UPZcEe2IOaTIFHQzew" name="calculo_de_los_costos_de_las_actividades" guid="_HZb1UPZcEe2IOaTIFHQzew" presentationName="calculo de los costos de las actividades" performedBy="_sBJbcPQfEe2JFv2GBsKE7Q _3ABDYO6mEe2LC_-quPiNrg" mandatoryInput="_gZVd4PZbEe2IOaTIFHQzew" additionallyPerformedBy="_QGr3gPQmEe2wQteYYU8Mgg">
+            <methodElementProperty xmi:id="_MtAAsPZcEe2IOaTIFHQzew" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_91ThwPZdEe2IOaTIFHQzew" name="contratar_personal" guid="_91ThwPZdEe2IOaTIFHQzew" presentationName="contratar personal">
+          <methodElementProperty xmi:id="_91ThwfZdEe2IOaTIFHQzew" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_1QXk4PZgEe2IOaTIFHQzew" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_fyhjQPZgEe2IOaTIFHQzew" name="informe_de_contratacion" guid="_fyhjQPZgEe2IOaTIFHQzew" presentationName="informe de contratacion">
+            <methodElementProperty xmi:id="_1QlnUPZgEe2IOaTIFHQzew" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_t6VLcPZgEe2IOaTIFHQzew" name="planificacion_de_la_contratacion" guid="_t6VLcPZgEe2IOaTIFHQzew" presentationName="planificacion de la contratacion" performedBy="_sBJbcPQfEe2JFv2GBsKE7Q _3ABDYO6mEe2LC_-quPiNrg" mandatoryInput="_fyhjQPZgEe2IOaTIFHQzew">
+            <methodElementProperty xmi:id="_1Qv_YPZgEe2IOaTIFHQzew" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_Drt0IPZhEe2IOaTIFHQzew" name="recepcion_y_revision_de_solicitudes" guid="_Drt0IPZhEe2IOaTIFHQzew" presentationName="recepcion y revision de solicitudes" performedBy="_sBJbcPQfEe2JFv2GBsKE7Q _3ABDYO6mEe2LC_-quPiNrg" mandatoryInput="_fyhjQPZgEe2IOaTIFHQzew">
+            <methodElementProperty xmi:id="_TwLWQPZhEe2IOaTIFHQzew" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_JZoZMPZhEe2IOaTIFHQzew" name="realizar_entrevistas" guid="_JZoZMPZhEe2IOaTIFHQzew" presentationName="realizar entrevistas" performedBy="_sBJbcPQfEe2JFv2GBsKE7Q _3ABDYO6mEe2LC_-quPiNrg" mandatoryInput="_fyhjQPZgEe2IOaTIFHQzew">
+            <methodElementProperty xmi:id="_TwSD8PZhEe2IOaTIFHQzew" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_N4gYQPZhEe2IOaTIFHQzew" name="evaluacion_de_habilidades_y_competencias" guid="_N4gYQPZhEe2IOaTIFHQzew" presentationName="evaluacion de habilidades y competencias" performedBy="_sBJbcPQfEe2JFv2GBsKE7Q _3ABDYO6mEe2LC_-quPiNrg" mandatoryInput="_fyhjQPZgEe2IOaTIFHQzew">
+            <methodElementProperty xmi:id="_TwZ_wPZhEe2IOaTIFHQzew" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_Ns3yre6jEe2LC_-quPiNrg" name="CapabilityPatterns" guid="_Ns3yre6jEe2LC_-quPiNrg"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_Ns3yru6jEe2LC_-quPiNrg" name="DeliveryProcesses" guid="_Ns3yru6jEe2LC_-quPiNrg"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_Ns3yr-6jEe2LC_-quPiNrg" name="ProcessContributions" guid="_Ns3yr-6jEe2LC_-quPiNrg"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

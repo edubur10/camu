@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_LG3LsPQfEe2JFv2GBsKE7Q" guid="_LG3LsPQfEe2JFv2GBsKE7Q"/>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_LG19kPQfEe2JFv2GBsKE7Q" name="requerimientos" guid="_LG19kPQfEe2JFv2GBsKE7Q" presentationName="requerimientos" briefDescription="Los requisitos de un proyecto de software son las necesidades, funcionalidades y restricciones que se establecen para el desarrollo y la implementación exitosa del software. Los requisitos son la base para definir qué debe hacer el software y cómo debe comportarse para cumplir con las expectativas y satisfacer las necesidades del cliente o usuario final." authors="Eduardo Esteban Burbano Cordoba y Andres Felipe Aristizabal" changeDate="2023-05-19T17:05:09.067-0500" version="version 1.0">
+    <methodElementProperty xmi:id="_cMblgPaQEe2oZJcuCaSHaw" name="me_edited" value="true"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_LG19kfQfEe2JFv2GBsKE7Q" name="Content" guid="_LG19kfQfEe2JFv2GBsKE7Q">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_LG19kvQfEe2JFv2GBsKE7Q" name="Categories" guid="_LG19kvQfEe2JFv2GBsKE7Q">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_LG19k_QfEe2JFv2GBsKE7Q" name="Domains" guid="_LG19k_QfEe2JFv2GBsKE7Q"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_LG19lPQfEe2JFv2GBsKE7Q" name="Disciplines" guid="_LG19lPQfEe2JFv2GBsKE7Q"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_LG19lfQfEe2JFv2GBsKE7Q" name="RoleSets" guid="_LG19lfQfEe2JFv2GBsKE7Q"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_LG19lvQfEe2JFv2GBsKE7Q" name="WP Types" guid="_LG19lvQfEe2JFv2GBsKE7Q"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_LG19l_QfEe2JFv2GBsKE7Q" name="Tools" guid="_LG19l_QfEe2JFv2GBsKE7Q"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_LG19mPQfEe2JFv2GBsKE7Q" name="StandardCategories" guid="_LG19mPQfEe2JFv2GBsKE7Q"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_LG19mfQfEe2JFv2GBsKE7Q" name="CustomCategories" guid="_LG19mfQfEe2JFv2GBsKE7Q">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_LG19mvQfEe2JFv2GBsKE7Q" name="Hidden" guid="_LG19mvQfEe2JFv2GBsKE7Q">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_LG19m_QfEe2JFv2GBsKE7Q" name="Custom Categories" guid="_LG19m_QfEe2JFv2GBsKE7Q"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_LG19nPQfEe2JFv2GBsKE7Q" name="CoreContent" guid="_LG19nPQfEe2JFv2GBsKE7Q">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_hQwmYPZhEe2IOaTIFHQzew" name="desarrollar_modelo_basado_en_los_requisitos" guid="_hQwmYPZhEe2IOaTIFHQzew" presentationName="desarrollar modelo basado en los requisitos">
+          <methodElementProperty xmi:id="_hQwmYfZhEe2IOaTIFHQzew" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_lAsb0PZhEe2IOaTIFHQzew" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_nMQ7gPZhEe2IOaTIFHQzew" name="trazabilidad_de_requisitos" guid="_nMQ7gPZhEe2IOaTIFHQzew" presentationName="trazabilidad de requisitos" briefDescription="La trazabilidad de requisitos en software se refiere a la capacidad de seguir y documentar la relación entre los requisitos a lo largo del ciclo de vida del desarrollo de software. Consiste en establecer vínculos y conexiones entre los requisitos y otros artefactos, como diseños, código fuente, pruebas y documentación.&#xD;&#xA;&#xD;&#xA;La trazabilidad de requisitos tiene como objetivo principal garantizar que todos los requisitos estén cubiertos y que se pueda rastrear su implementación, verificación y validación a lo largo del proceso de desarrollo de software. ">
+            <methodElementProperty xmi:id="_TJVGwPZjEe2IOaTIFHQzew" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_qjdg0PZhEe2IOaTIFHQzew" name="diagrama_de_dominio" guid="_qjdg0PZhEe2IOaTIFHQzew" presentationName="diagrama de dominio" briefDescription="Un diagrama de dominio en software es una representación visual que muestra las entidades clave y las relaciones entre ellas dentro de un determinado dominio o contexto. El diagrama de dominio se utiliza para comprender la estructura y la organización de un sistema, identificar las entidades relevantes y cómo se relacionan entre sí.&#xD;&#xA;&#xD;&#xA;El objetivo principal de un diagrama de dominio es modelar el dominio del problema que el software está abordando. Ayuda a los desarrolladores y a las partes interesadas a tener una visión clara de los conceptos clave, las interacciones y las reglas del negocio que influyen en el diseño y desarrollo del software.">
+            <methodElementProperty xmi:id="_TJe3wPZjEe2IOaTIFHQzew" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_u5gUAPZhEe2IOaTIFHQzew" name="disenar_el_modelo" guid="_u5gUAPZhEe2IOaTIFHQzew" presentationName="disenar el modelo" briefDescription="Diseñar el modelo de software basado en los requisitos implica crear una representación visual o conceptual del sistema que refleje las funcionalidades, los componentes y las interacciones necesarias para satisfacer los requisitos identificados. " performedBy="_t_7q4PZlEe2IOaTIFHQzew" mandatoryInput="_qjdg0PZhEe2IOaTIFHQzew _nMQ7gPZhEe2IOaTIFHQzew" output="_qjdg0PZhEe2IOaTIFHQzew">
+            <methodElementProperty xmi:id="_TJe3wvZjEe2IOaTIFHQzew" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_t_7q4PZlEe2IOaTIFHQzew" name="arquitecto_de_software" guid="_t_7q4PZlEe2IOaTIFHQzew" presentationName="arquitecto de software" briefDescription="Un arquitecto de software es un profesional con experiencia en diseño y estructuración de sistemas de software. Su función principal es diseñar y definir la arquitectura del software, que es la estructura fundamental del sistema y su organización a nivel de componentes, módulos y sus interacciones.&#xD;&#xA;&#xD;&#xA;El arquitecto de software es responsable de tomar decisiones clave en el diseño del sistema, considerando aspectos técnicos, funcionales y no funcionales, y asegurando que el software cumpla con los requisitos del proyecto. " responsibleFor="_qjdg0PZhEe2IOaTIFHQzew _nMQ7gPZhEe2IOaTIFHQzew _ocYGQPZmEe2IOaTIFHQzew _RGSesPZoEe2gYZzTouN9Vg _ThR6cPZoEe2gYZzTouN9Vg">
+            <methodElementProperty xmi:id="_-HF7sPZlEe2IOaTIFHQzew" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_CT9kwPZmEe2IOaTIFHQzew" name="documentacion_del_modelo" guid="_CT9kwPZmEe2IOaTIFHQzew" presentationName="documentacion del modelo" briefDescription="La documentación del software basada en los requisitos es un proceso importante para capturar, comunicar y mantener un registro de los requisitos funcionales y no funcionales del sistema. Proporciona información detallada sobre cómo el software debe comportarse, qué funcionalidades debe ofrecer y cómo debe interactuar con los usuarios y otros componentes. " performedBy="_t_7q4PZlEe2IOaTIFHQzew" mandatoryInput="_qjdg0PZhEe2IOaTIFHQzew _nMQ7gPZhEe2IOaTIFHQzew">
+            <methodElementProperty xmi:id="_d7DckPZmEe2IOaTIFHQzew" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_OasGAPZmEe2IOaTIFHQzew" name="implementacion_del_modelo" guid="_OasGAPZmEe2IOaTIFHQzew" presentationName="implementacion del modelo" briefDescription="La implementación del modelo de software basado en los requisitos implica llevar a cabo las actividades necesarias para traducir el diseño y los requisitos del software en código ejecutable." performedBy="_t_7q4PZlEe2IOaTIFHQzew" mandatoryInput="_qjdg0PZhEe2IOaTIFHQzew _nMQ7gPZhEe2IOaTIFHQzew">
+            <methodElementProperty xmi:id="_d7IVEPZmEe2IOaTIFHQzew" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_ZBTfYPZmEe2IOaTIFHQzew" name="seguimiento_y_mejora_continua" guid="_ZBTfYPZmEe2IOaTIFHQzew" presentationName="seguimiento y mejora continua" briefDescription="El seguimiento y la mejora continua del software son elementos esenciales para garantizar su eficiencia, calidad y adaptabilidad a medida que evolucionan los requisitos y las necesidades del negocio." performedBy="_t_7q4PZlEe2IOaTIFHQzew" mandatoryInput="_qjdg0PZhEe2IOaTIFHQzew _nMQ7gPZhEe2IOaTIFHQzew">
+            <methodElementProperty xmi:id="_d7Pp0PZmEe2IOaTIFHQzew" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_hNFOAPZmEe2IOaTIFHQzew" name="identificar_los_requisitos_del_sistema" guid="_hNFOAPZmEe2IOaTIFHQzew" presentationName="identificar los requisitos del sistema">
+          <methodElementProperty xmi:id="_hNFOAfZmEe2IOaTIFHQzew" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_rR0CUPZmEe2IOaTIFHQzew" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_lw7MoPZmEe2IOaTIFHQzew" name="desarollador_backend" guid="_lw7MoPZmEe2IOaTIFHQzew" presentationName="desarollador backend" responsibleFor="_ocYGQPZmEe2IOaTIFHQzew _ThR6cPZoEe2gYZzTouN9Vg _RGSesPZoEe2gYZzTouN9Vg">
+            <methodElementProperty xmi:id="_ELU5kPZnEe2IOaTIFHQzew" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_ocYGQPZmEe2IOaTIFHQzew" name="casos_de_uso_del_sistema" guid="_ocYGQPZmEe2IOaTIFHQzew" presentationName="casos de uso del sistema">
+            <methodElementProperty xmi:id="_ELZyEPZnEe2IOaTIFHQzew" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_Xc0YYPZnEe2gYZzTouN9Vg" name="reunion_con_los_interesados" guid="_Xc0YYPZnEe2gYZzTouN9Vg" presentationName="reunion con los interesados" performedBy="_t_7q4PZlEe2IOaTIFHQzew _lw7MoPZmEe2IOaTIFHQzew" mandatoryInput="_ocYGQPZmEe2IOaTIFHQzew" output="_ocYGQPZmEe2IOaTIFHQzew">
+            <methodElementProperty xmi:id="_6JoVsPZnEe2gYZzTouN9Vg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_oKZwAPZnEe2gYZzTouN9Vg" name="analisis_de_documentos" guid="_oKZwAPZnEe2gYZzTouN9Vg" presentationName="analisis de documentos" performedBy="_t_7q4PZlEe2IOaTIFHQzew" mandatoryInput="_ocYGQPZmEe2IOaTIFHQzew" additionallyPerformedBy="_lw7MoPZmEe2IOaTIFHQzew">
+            <methodElementProperty xmi:id="_6JytwPZnEe2gYZzTouN9Vg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_9EEtkPZnEe2gYZzTouN9Vg" name="priorizacion_de_requisitos" guid="_9EEtkPZnEe2gYZzTouN9Vg" presentationName="priorizacion de requisitos" performedBy="_t_7q4PZlEe2IOaTIFHQzew" mandatoryInput="_ocYGQPZmEe2IOaTIFHQzew" additionallyPerformedBy="_lw7MoPZmEe2IOaTIFHQzew">
+            <methodElementProperty xmi:id="_BnHa8PZoEe2gYZzTouN9Vg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_CfMScPZoEe2gYZzTouN9Vg" name="gestionar_futuros_cambios" guid="_CfMScPZoEe2gYZzTouN9Vg" presentationName="gestionar futuros cambios" performedBy="_t_7q4PZlEe2IOaTIFHQzew _lw7MoPZmEe2IOaTIFHQzew" mandatoryInput="_ocYGQPZmEe2IOaTIFHQzew">
+            <methodElementProperty xmi:id="_H0IW0PZoEe2gYZzTouN9Vg" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ODHBkPZoEe2gYZzTouN9Vg" name="definir_los_requisitos_funcionales" guid="_ODHBkPZoEe2gYZzTouN9Vg" presentationName="definir los requisitos funcionales">
+          <methodElementProperty xmi:id="_ODHBkfZoEe2gYZzTouN9Vg" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_iRuP8PZoEe2gYZzTouN9Vg" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_RGSesPZoEe2gYZzTouN9Vg" name="requisitos_funcionales" guid="_RGSesPZoEe2gYZzTouN9Vg" presentationName="requisitos funcionales" briefDescription="Los requisitos funcionales de software son declaraciones detalladas que describen las funciones, las acciones y los comportamientos específicos que un sistema de software debe cumplir para satisfacer las necesidades de los usuarios y las partes interesadas. Estos requisitos se centran en qué debe hacer el software y cómo debe responder a las entradas del usuario.">
+            <methodElementProperty xmi:id="_iz0QYPZoEe2gYZzTouN9Vg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_ThR6cPZoEe2gYZzTouN9Vg" name="requisitos_no_funcionales" guid="_ThR6cPZoEe2gYZzTouN9Vg" presentationName="requisitos no funcionales" briefDescription="Los requisitos no funcionales de software son atributos o características del sistema que no están directamente relacionados con las funcionalidades específicas, sino que se centran en aspectos como el rendimiento, la seguridad, la usabilidad, la escalabilidad y otros aspectos de calidad. Estos requisitos describen cómo debe comportarse el sistema en términos de calidad, rendimiento, confiabilidad y otros atributos.">
+            <methodElementProperty xmi:id="_i8ttsPZoEe2gYZzTouN9Vg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_VSGX0PZoEe2gYZzTouN9Vg" name="desarrollar_los_requisitos_funcionales" guid="_VSGX0PZoEe2gYZzTouN9Vg" presentationName="desarrollar los requisitos funcionales" briefDescription="Desarrollar los requisitos funcionales de un proyecto de software implica identificar, analizar y documentar las funciones y características específicas que el software debe cumplir para satisfacer las necesidades y expectativas de los usuarios y las partes interesadas. Los requisitos funcionales describen qué acciones debe realizar el sistema, cómo debe responder a las entradas del usuario y qué resultados se esperan. Estos requisitos suelen expresarse en términos de comportamiento del sistema y funciones específicas que deben estar presentes." performedBy="_t_7q4PZlEe2IOaTIFHQzew _lw7MoPZmEe2IOaTIFHQzew" mandatoryInput="_RGSesPZoEe2gYZzTouN9Vg" output="_RGSesPZoEe2gYZzTouN9Vg">
+            <methodElementProperty xmi:id="_i82QkPZoEe2gYZzTouN9Vg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_3uWJkPZoEe2gYZzTouN9Vg" name="desarrollar_los_requisitos_no_funcionales" guid="_3uWJkPZoEe2gYZzTouN9Vg" presentationName="desarrollar los requisitos no funcionales" briefDescription="Desarrollar los requisitos no funcionales de un proyecto de software implica identificar y documentar los criterios y restricciones relacionados con aspectos técnicos, de rendimiento, de seguridad, de usabilidad y otros aspectos que no están directamente relacionados con las funcionalidades específicas del sistema. Los requisitos no funcionales se centran en cómo debe comportarse el sistema en términos de calidad, rendimiento, confiabilidad y otros atributos." performedBy="_t_7q4PZlEe2IOaTIFHQzew _lw7MoPZmEe2IOaTIFHQzew" mandatoryInput="_ThR6cPZoEe2gYZzTouN9Vg" output="_ThR6cPZoEe2gYZzTouN9Vg">
+            <methodElementProperty xmi:id="_9DJEAPZoEe2gYZzTouN9Vg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_RvIK4PZpEe2gYZzTouN9Vg" name="gestionar_futuros_cambios" guid="_RvIK4PZpEe2gYZzTouN9Vg" presentationName="gestionar futuros cambios" briefDescription="Gestionar los cambios de los requisitos funcionales y no funcionales de un software es una parte fundamental del ciclo de vida del desarrollo de software. A medida que evoluciona el proyecto, es común que surjan nuevos requisitos, se modifiquen los existentes o se eliminen algunos. " performedBy="_lw7MoPZmEe2IOaTIFHQzew _t_7q4PZlEe2IOaTIFHQzew" output="_RGSesPZoEe2gYZzTouN9Vg _ThR6cPZoEe2gYZzTouN9Vg">
+            <methodElementProperty xmi:id="_X2nGgPZpEe2gYZzTouN9Vg" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_iMNBUPZpEe2gYZzTouN9Vg" name="guardar_informacion" guid="_iMNBUPZpEe2gYZzTouN9Vg" presentationName="guardar informacion">
+          <methodElementProperty xmi:id="_iMNBUfZpEe2gYZzTouN9Vg" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_5nPvcPZpEe2gYZzTouN9Vg" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_ldNfEPZpEe2gYZzTouN9Vg" name="informe_de_almacenamiento" guid="_ldNfEPZpEe2gYZzTouN9Vg" presentationName="informe de almacenamiento">
+            <methodElementProperty xmi:id="_5nVPAPZpEe2gYZzTouN9Vg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_qSGKYPZpEe2gYZzTouN9Vg" name="etiquetar_informacion" guid="_qSGKYPZpEe2gYZzTouN9Vg" presentationName="etiquetar informacion" performedBy="_t_7q4PZlEe2IOaTIFHQzew" mandatoryInput="_ldNfEPZpEe2gYZzTouN9Vg">
+            <methodElementProperty xmi:id="_5ndx4PZpEe2gYZzTouN9Vg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_zgjeAPZpEe2gYZzTouN9Vg" name="acutalizar_informacion" guid="_zgjeAPZpEe2gYZzTouN9Vg" presentationName="acutalizar informacion" performedBy="_t_7q4PZlEe2IOaTIFHQzew" mandatoryInput="_ldNfEPZpEe2gYZzTouN9Vg">
+            <methodElementProperty xmi:id="_5nj4gPZpEe2gYZzTouN9Vg" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_LG19nfQfEe2JFv2GBsKE7Q" name="CapabilityPatterns" guid="_LG19nfQfEe2JFv2GBsKE7Q"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_LG19nvQfEe2JFv2GBsKE7Q" name="DeliveryProcesses" guid="_LG19nvQfEe2JFv2GBsKE7Q"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_LG19n_QfEe2JFv2GBsKE7Q" name="ProcessContributions" guid="_LG19n_QfEe2JFv2GBsKE7Q"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

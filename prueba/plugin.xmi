@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_QN5-APQfEe2JFv2GBsKE7Q" guid="_QN5-APQfEe2JFv2GBsKE7Q"/>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_QN3hwPQfEe2JFv2GBsKE7Q" name="prueba" guid="_QN3hwPQfEe2JFv2GBsKE7Q" presentationName="prueba" briefDescription="La etapa de pruebas de un proyecto de software es una fase crítica en el desarrollo de un sistema o una aplicación. Consiste en verificar y validar que el software cumpla con los requisitos establecidos, funcione correctamente y se comporte de acuerdo con las expectativas del cliente o usuario final." authors="Eduardo Esteban Burbano Cordoba y Andres Felipe Aristizabal" changeDate="2023-05-19T17:05:12.445-0500" version="version 1.0">
+    <methodElementProperty xmi:id="_cMSbkPaQEe2oZJcuCaSHaw" name="me_edited" value="true"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_QN3hwfQfEe2JFv2GBsKE7Q" name="Content" guid="_QN3hwfQfEe2JFv2GBsKE7Q">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_QN3hwvQfEe2JFv2GBsKE7Q" name="Categories" guid="_QN3hwvQfEe2JFv2GBsKE7Q">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_QN3hw_QfEe2JFv2GBsKE7Q" name="Domains" guid="_QN3hw_QfEe2JFv2GBsKE7Q"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_QN3hxPQfEe2JFv2GBsKE7Q" name="Disciplines" guid="_QN3hxPQfEe2JFv2GBsKE7Q"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_QN3hxfQfEe2JFv2GBsKE7Q" name="RoleSets" guid="_QN3hxfQfEe2JFv2GBsKE7Q"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_QN3hxvQfEe2JFv2GBsKE7Q" name="WP Types" guid="_QN3hxvQfEe2JFv2GBsKE7Q"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_QN3hx_QfEe2JFv2GBsKE7Q" name="Tools" guid="_QN3hx_QfEe2JFv2GBsKE7Q"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_QN3hyPQfEe2JFv2GBsKE7Q" name="StandardCategories" guid="_QN3hyPQfEe2JFv2GBsKE7Q"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_QN3hyfQfEe2JFv2GBsKE7Q" name="CustomCategories" guid="_QN3hyfQfEe2JFv2GBsKE7Q">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_QN3hyvQfEe2JFv2GBsKE7Q" name="Hidden" guid="_QN3hyvQfEe2JFv2GBsKE7Q">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_QN3hy_QfEe2JFv2GBsKE7Q" name="Custom Categories" guid="_QN3hy_QfEe2JFv2GBsKE7Q"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_QN3hzPQfEe2JFv2GBsKE7Q" name="CoreContent" guid="_QN3hzPQfEe2JFv2GBsKE7Q">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_E4SNwPaJEe2oZJcuCaSHaw" name="establecer_parametros_de_prueba" guid="_E4SNwPaJEe2oZJcuCaSHaw" presentationName="establecer parametros de prueba">
+          <methodElementProperty xmi:id="_E4aJkPaJEe2oZJcuCaSHaw" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_6fe8APaKEe2oZJcuCaSHaw" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_JACGQPaJEe2oZJcuCaSHaw" name="tester" guid="_JACGQPaJEe2oZJcuCaSHaw" presentationName="tester" briefDescription="Un tester, o tester de software, es el profesional encargado de llevar a cabo las pruebas y evaluaciones del software en un proyecto de desarrollo. Su principal objetivo es detectar y reportar los errores o fallas del sistema, garantizando así la calidad y funcionalidad del software antes de su lanzamiento. " responsibleFor="_RKPuoPaJEe2oZJcuCaSHaw _KkVfsPaLEe2oZJcuCaSHaw _08D6QPaLEe2oZJcuCaSHaw _mMPaYPaMEe2oZJcuCaSHaw">
+            <methodElementProperty xmi:id="_6flpsPaKEe2oZJcuCaSHaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_KmyosPaJEe2oZJcuCaSHaw" name="lider_de_proyecto" guid="_KmyosPaJEe2oZJcuCaSHaw" presentationName="lider de proyecto" briefDescription="En resumen, el líder de proyecto de software desempeña un papel crucial en la planificación, coordinación y liderazgo del equipo de desarrollo para garantizar la entrega exitosa del software. Su enfoque está en liderar y motivar al equipo, comunicarse eficazmente con los stakeholders y gestionar los riesgos y la calidad del proyecto." responsibleFor="_RKPuoPaJEe2oZJcuCaSHaw _mMPaYPaMEe2oZJcuCaSHaw">
+            <methodElementProperty xmi:id="_6fuMkPaKEe2oZJcuCaSHaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_MC6ocPaJEe2oZJcuCaSHaw" name="gerente" guid="_MC6ocPaJEe2oZJcuCaSHaw" presentationName="gerente" briefDescription="El gerente de un proyecto de software es el encargado de planificar, coordinar y supervisar todas las actividades relacionadas con el desarrollo y la implementación del software. Su función principal es garantizar que el proyecto se complete exitosamente, cumpliendo con los objetivos establecidos, dentro del presupuesto y en el tiempo estimado." responsibleFor="_RKPuoPaJEe2oZJcuCaSHaw _mMPaYPaMEe2oZJcuCaSHaw">
+            <methodElementProperty xmi:id="_6fzFEPaKEe2oZJcuCaSHaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_RKPuoPaJEe2oZJcuCaSHaw" name="parametros_de_prueba_" guid="_RKPuoPaJEe2oZJcuCaSHaw" presentationName="parametros de prueba ">
+            <methodElementProperty xmi:id="_6f6Z0PaKEe2oZJcuCaSHaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_Tf6lgPaJEe2oZJcuCaSHaw" name="establecer_tiempos_" guid="_Tf6lgPaJEe2oZJcuCaSHaw" presentationName="establecer tiempos " performedBy="_MC6ocPaJEe2oZJcuCaSHaw _KmyosPaJEe2oZJcuCaSHaw _JACGQPaJEe2oZJcuCaSHaw" mandatoryInput="_RKPuoPaJEe2oZJcuCaSHaw">
+            <methodElementProperty xmi:id="_6gBukPaKEe2oZJcuCaSHaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_e-sggPaKEe2oZJcuCaSHaw" name="establecer_publico_objetivo" guid="_e-sggPaKEe2oZJcuCaSHaw" presentationName="establecer publico objetivo" performedBy="_MC6ocPaJEe2oZJcuCaSHaw _KmyosPaJEe2oZJcuCaSHaw _JACGQPaJEe2oZJcuCaSHaw" mandatoryInput="_RKPuoPaJEe2oZJcuCaSHaw">
+            <methodElementProperty xmi:id="_6gJDUPaKEe2oZJcuCaSHaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_2GEEsPaKEe2oZJcuCaSHaw" name="definir_horarios" guid="_2GEEsPaKEe2oZJcuCaSHaw" presentationName="definir horarios" performedBy="_MC6ocPaJEe2oZJcuCaSHaw _JACGQPaJEe2oZJcuCaSHaw _KmyosPaJEe2oZJcuCaSHaw" mandatoryInput="_RKPuoPaJEe2oZJcuCaSHaw">
+            <methodElementProperty xmi:id="_6gPJ8PaKEe2oZJcuCaSHaw" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_HPS2gPaLEe2oZJcuCaSHaw" name="encontrar_poblacion_de_prueba" guid="_HPS2gPaLEe2oZJcuCaSHaw" presentationName="encontrar poblacion de prueba">
+          <methodElementProperty xmi:id="_HPS2gfaLEe2oZJcuCaSHaw" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_TipegPaLEe2oZJcuCaSHaw" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_KkVfsPaLEe2oZJcuCaSHaw" name="poblacion_conseguida" guid="_KkVfsPaLEe2oZJcuCaSHaw" presentationName="poblacion conseguida">
+            <methodElementProperty xmi:id="_Tiu-EPaLEe2oZJcuCaSHaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_MLhf8PaLEe2oZJcuCaSHaw" name="definir_pago" guid="_MLhf8PaLEe2oZJcuCaSHaw" presentationName="definir pago" performedBy="_JACGQPaJEe2oZJcuCaSHaw" mandatoryInput="_RKPuoPaJEe2oZJcuCaSHaw">
+            <methodElementProperty xmi:id="_Ti2S0PaLEe2oZJcuCaSHaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_SXi9UPaLEe2oZJcuCaSHaw" name="buscar_poblacion_apta" guid="_SXi9UPaLEe2oZJcuCaSHaw" presentationName="buscar poblacion apta" briefDescription="Encontrar una población apta para las pruebas de un software implica identificar a personas o usuarios que cumplan con ciertos criterios específicos que los hagan adecuados para participar en las pruebas." performedBy="_f6Bq4PaLEe2oZJcuCaSHaw" mandatoryInput="_KkVfsPaLEe2oZJcuCaSHaw">
+            <methodElementProperty xmi:id="_Ti7yYPaLEe2oZJcuCaSHaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_XMONQPaLEe2oZJcuCaSHaw" name="hacer_la_oferta" guid="_XMONQPaLEe2oZJcuCaSHaw" presentationName="hacer la oferta" performedBy="_JACGQPaJEe2oZJcuCaSHaw" mandatoryInput="_KkVfsPaLEe2oZJcuCaSHaw">
+            <methodElementProperty xmi:id="_gt-3YPaLEe2oZJcuCaSHaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_bYtb0PaLEe2oZJcuCaSHaw" name="contextualizar_a_la_poblacion" guid="_bYtb0PaLEe2oZJcuCaSHaw" presentationName="contextualizar a la poblacion" briefDescription="Al contextualizar a la población apta para las pruebas de un software, se busca comprender y tener en cuenta el entorno en el que se utilizará el software y las características de los usuarios que formarán parte de las pruebas. Esto implica considerar factores como el contexto de uso, las necesidades y habilidades de los usuarios, y los objetivos del software. " performedBy="_JACGQPaJEe2oZJcuCaSHaw" mandatoryInput="_KkVfsPaLEe2oZJcuCaSHaw" additionallyPerformedBy="_f6Bq4PaLEe2oZJcuCaSHaw">
+            <methodElementProperty xmi:id="_guHaQPaLEe2oZJcuCaSHaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_f6Bq4PaLEe2oZJcuCaSHaw" name="terceros" guid="_f6Bq4PaLEe2oZJcuCaSHaw" presentationName="terceros" briefDescription="En el desarrollo de un proyecto de software, es común contar con la participación de terceros, que son personas, empresas o entidades externas al equipo de desarrollo interno. Estos terceros pueden desempeñar roles específicos y brindar servicios especializados para apoyar el proceso de desarrollo. ">
+            <methodElementProperty xmi:id="_guM50PaLEe2oZJcuCaSHaw" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_x1_hMPaLEe2oZJcuCaSHaw" name="dirigir_prueba" guid="_x1_hMPaLEe2oZJcuCaSHaw" presentationName="dirigir prueba">
+          <methodElementProperty xmi:id="_x1_hMfaLEe2oZJcuCaSHaw" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_M6x9MPaMEe2oZJcuCaSHaw" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_08D6QPaLEe2oZJcuCaSHaw" name="resultado_de_la_prueba" guid="_08D6QPaLEe2oZJcuCaSHaw" presentationName="resultado de la prueba" briefDescription="Los resultados de la prueba en la dirección de un proyecto de software son el conjunto de información obtenida durante el proceso de prueba que permite evaluar el funcionamiento y la calidad del software. Estos resultados proporcionan una visión clara de cómo el software se comporta en relación con los requisitos y las expectativas establecidas.">
+            <methodElementProperty xmi:id="_M655APaMEe2oZJcuCaSHaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_6BAa0PaLEe2oZJcuCaSHaw" name="informar_los_parametros_de_pueba_a_la_poblacion" guid="_6BAa0PaLEe2oZJcuCaSHaw" presentationName="informar los parametros de pueba a la poblacion" briefDescription="Informar los parámetros de prueba a la población es un aspecto importante en la dirección de la prueba de un proyecto de software. Esto implica comunicar de manera clara y efectiva los detalles y requisitos de las pruebas a las personas involucradas en el proceso de prueba. " performedBy="_JACGQPaJEe2oZJcuCaSHaw">
+            <methodElementProperty xmi:id="_M7AmsPaMEe2oZJcuCaSHaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_BD4AoPaMEe2oZJcuCaSHaw" name="iniciar_prueba" guid="_BD4AoPaMEe2oZJcuCaSHaw" presentationName="iniciar prueba" briefDescription="Se da inicio a la prueba con la población seleccionada y en el tiempo establecido&#xD;&#xA;" performedBy="_JACGQPaJEe2oZJcuCaSHaw _f6Bq4PaLEe2oZJcuCaSHaw">
+            <methodElementProperty xmi:id="_M7JJkPaMEe2oZJcuCaSHaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_E480wPaMEe2oZJcuCaSHaw" name="cumplir_con_el_tiempo_establecido" guid="_E480wPaMEe2oZJcuCaSHaw" presentationName="cumplir con el tiempo establecido" briefDescription="Cumplir con el tiempo estimado en la dirección de la prueba requiere una buena planificación, gestión efectiva de recursos, comunicación clara y monitoreo constante. Siguiendo estos puntos clave, se puede maximizar las posibilidades de completar la prueba dentro del tiempo establecido." performedBy="_JACGQPaJEe2oZJcuCaSHaw">
+            <methodElementProperty xmi:id="_M7QeUPaMEe2oZJcuCaSHaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_KFUzAPaMEe2oZJcuCaSHaw" name="documentar_resultados" guid="_KFUzAPaMEe2oZJcuCaSHaw" presentationName="documentar resultados" briefDescription="La documentación de los resultados de la prueba en la dirección de un proyecto de software es esencial para mantener un registro claro y detallado de los hallazgos y las acciones tomadas durante el proceso de prueba." performedBy="_JACGQPaJEe2oZJcuCaSHaw" mandatoryInput="_08D6QPaLEe2oZJcuCaSHaw" output="_08D6QPaLEe2oZJcuCaSHaw">
+            <methodElementProperty xmi:id="_M7XMAPaMEe2oZJcuCaSHaw" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_iTve0PaMEe2oZJcuCaSHaw" name="identificar_resultados" guid="_iTve0PaMEe2oZJcuCaSHaw" presentationName="identificar resultados">
+          <methodElementProperty xmi:id="_iTwF4PaMEe2oZJcuCaSHaw" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_r4Zr8PaMEe2oZJcuCaSHaw" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_mMPaYPaMEe2oZJcuCaSHaw" name="conclusiones_y_acciones_a_tomar" guid="_mMPaYPaMEe2oZJcuCaSHaw" presentationName="conclusiones y acciones a tomar">
+            <methodElementProperty xmi:id="_r4hAsPaMEe2oZJcuCaSHaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_onbDYPaMEe2oZJcuCaSHaw" name="analizar_resultados" guid="_onbDYPaMEe2oZJcuCaSHaw" presentationName="analizar resultados" briefDescription="Analizar los resultados de una prueba de software es una parte crítica del proceso de pruebas, ya que proporciona información valiosa sobre el rendimiento, la calidad y la estabilidad del software. " performedBy="_MC6ocPaJEe2oZJcuCaSHaw _KmyosPaJEe2oZJcuCaSHaw _JACGQPaJEe2oZJcuCaSHaw">
+            <methodElementProperty xmi:id="_r4nHUPaMEe2oZJcuCaSHaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_wkp_sPaMEe2oZJcuCaSHaw" name="sacar_conclusiones" guid="_wkp_sPaMEe2oZJcuCaSHaw" presentationName="sacar conclusiones" briefDescription="Sacar conclusiones de una prueba de software implica sintetizar la información obtenida durante el proceso de pruebas y extraer observaciones significativas que ayuden a evaluar la calidad y el rendimiento del software. " performedBy="_MC6ocPaJEe2oZJcuCaSHaw _KmyosPaJEe2oZJcuCaSHaw _JACGQPaJEe2oZJcuCaSHaw">
+            <methodElementProperty xmi:id="_FaEvYPaNEe2oZJcuCaSHaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_0vclIPaMEe2oZJcuCaSHaw" name="tomar_decisiones_a_partir_de_las_conclusiones" guid="_0vclIPaMEe2oZJcuCaSHaw" presentationName="tomar decisiones a partir de las conclusiones" briefDescription="Tomar decisiones informadas basadas en las conclusiones de las pruebas de software es fundamental para garantizar la calidad y el éxito del proyecto. Es importante involucrar a todos los interesados pertinentes y comunicar de manera efectiva las decisiones tomadas para mantener una colaboración fluida y una mejora continua en el desarrollo del software." performedBy="_MC6ocPaJEe2oZJcuCaSHaw _KmyosPaJEe2oZJcuCaSHaw _JACGQPaJEe2oZJcuCaSHaw" mandatoryInput="_mMPaYPaMEe2oZJcuCaSHaw" output="_mMPaYPaMEe2oZJcuCaSHaw">
+            <methodElementProperty xmi:id="_Fae_EPaNEe2oZJcuCaSHaw" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_QN3hzfQfEe2JFv2GBsKE7Q" name="CapabilityPatterns" guid="_QN3hzfQfEe2JFv2GBsKE7Q"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_QN3hzvQfEe2JFv2GBsKE7Q" name="DeliveryProcesses" guid="_QN3hzvQfEe2JFv2GBsKE7Q"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_QN3hz_QfEe2JFv2GBsKE7Q" name="ProcessContributions" guid="_QN3hz_QfEe2JFv2GBsKE7Q"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

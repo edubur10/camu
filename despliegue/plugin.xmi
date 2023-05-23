@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_RFftUfQfEe2JFv2GBsKE7Q" guid="_RFftUfQfEe2JFv2GBsKE7Q"/>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_RFfGQPQfEe2JFv2GBsKE7Q" name="despliegue" guid="_RFfGQPQfEe2JFv2GBsKE7Q" presentationName="despliegue" briefDescription="El despliegue de un proyecto de software se refiere a la fase en la cual el software desarrollado se instala y se pone en funcionamiento en el entorno de producción o de uso final. Es el proceso de implementar y distribuir el software para que los usuarios puedan utilizarlo.&#xD;&#xA;&#xD;&#xA;" authors="Eduardo Esteban Burbano Cordoba y Andres Felipe Aristizabal" changeDate="2023-05-19T17:05:27.724-0500" version="version 1.0">
+    <methodElementProperty xmi:id="_cL9rcPaQEe2oZJcuCaSHaw" name="me_edited" value="true"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_RFfGQfQfEe2JFv2GBsKE7Q" name="Content" guid="_RFfGQfQfEe2JFv2GBsKE7Q">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_RFfGQvQfEe2JFv2GBsKE7Q" name="Categories" guid="_RFfGQvQfEe2JFv2GBsKE7Q">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_RFfGQ_QfEe2JFv2GBsKE7Q" name="Domains" guid="_RFfGQ_QfEe2JFv2GBsKE7Q"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_RFfGRPQfEe2JFv2GBsKE7Q" name="Disciplines" guid="_RFfGRPQfEe2JFv2GBsKE7Q"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_RFfGRfQfEe2JFv2GBsKE7Q" name="RoleSets" guid="_RFfGRfQfEe2JFv2GBsKE7Q"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_RFfGRvQfEe2JFv2GBsKE7Q" name="WP Types" guid="_RFfGRvQfEe2JFv2GBsKE7Q"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_RFfGR_QfEe2JFv2GBsKE7Q" name="Tools" guid="_RFfGR_QfEe2JFv2GBsKE7Q"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_RFfGSPQfEe2JFv2GBsKE7Q" name="StandardCategories" guid="_RFfGSPQfEe2JFv2GBsKE7Q"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_RFfGSfQfEe2JFv2GBsKE7Q" name="CustomCategories" guid="_RFfGSfQfEe2JFv2GBsKE7Q">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_RFfGSvQfEe2JFv2GBsKE7Q" name="Hidden" guid="_RFfGSvQfEe2JFv2GBsKE7Q">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_RFfGS_QfEe2JFv2GBsKE7Q" name="Custom Categories" guid="_RFfGS_QfEe2JFv2GBsKE7Q"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_RFfGTPQfEe2JFv2GBsKE7Q" name="CoreContent" guid="_RFfGTPQfEe2JFv2GBsKE7Q">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Unf70PaNEe2oZJcuCaSHaw" name="corregir_con_base_a_pruebas" guid="_Unf70PaNEe2oZJcuCaSHaw" presentationName="corregir con base a pruebas">
+          <methodElementProperty xmi:id="_Ungi4PaNEe2oZJcuCaSHaw" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_t8nxAPaNEe2oZJcuCaSHaw" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_cC2TEPaNEe2oZJcuCaSHaw" name="detectar_fallos" guid="_cC2TEPaNEe2oZJcuCaSHaw" presentationName="detectar fallos" briefDescription="La detección temprana de fallos durante el despliegue de un proyecto de software es crucial para minimizar el impacto en los usuarios finales y garantizar un funcionamiento estable y confiable." performedBy="_gZpUMPaNEe2oZJcuCaSHaw _eTs7YPaNEe2oZJcuCaSHaw">
+            <methodElementProperty xmi:id="_t81zcPaNEe2oZJcuCaSHaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_eTs7YPaNEe2oZJcuCaSHaw" name="desarrollador_backend" guid="_eTs7YPaNEe2oZJcuCaSHaw" presentationName="desarrollador backend" briefDescription="Un desarrollador backend en un proyecto de software es responsable de la implementación y gestión de la lógica y la funcionalidad que ocurre en el servidor, así como la interacción con la base de datos. Su principal objetivo es garantizar el funcionamiento correcto y eficiente de la aplicación o sistema desde el lado del servidor." responsibleFor="_iv0hYPaNEe2oZJcuCaSHaw _yeeWIPaOEe2oZJcuCaSHaw _ajwM8PaPEe2oZJcuCaSHaw">
+            <methodElementProperty xmi:id="_t88hIPaNEe2oZJcuCaSHaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_gZpUMPaNEe2oZJcuCaSHaw" name="desarrollador_frontend" guid="_gZpUMPaNEe2oZJcuCaSHaw" presentationName="desarrollador frontend" briefDescription="Un desarrollador frontend en un proyecto de software es responsable de crear y mantener la interfaz de usuario y la experiencia del usuario en la parte visible de una aplicación o sitio web. Su objetivo principal es traducir los diseños y requisitos funcionales en código HTML, CSS y JavaScript que los usuarios puedan interactuar directamente." responsibleFor="_iv0hYPaNEe2oZJcuCaSHaw _yeeWIPaOEe2oZJcuCaSHaw _ajwM8PaPEe2oZJcuCaSHaw">
+            <methodElementProperty xmi:id="_t9D14PaNEe2oZJcuCaSHaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_iv0hYPaNEe2oZJcuCaSHaw" name="codigo_corregido" guid="_iv0hYPaNEe2oZJcuCaSHaw" presentationName="codigo corregido">
+            <methodElementProperty xmi:id="_t9J8gPaNEe2oZJcuCaSHaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_pWf6cPaNEe2oZJcuCaSHaw" name="implementar_correciones" guid="_pWf6cPaNEe2oZJcuCaSHaw" presentationName="implementar correciones" briefDescription="Implementar correcciones durante el despliegue de un proyecto de software es un proceso importante para solucionar problemas y asegurar un funcionamiento adecuado del sistema. " performedBy="_eTs7YPaNEe2oZJcuCaSHaw _gZpUMPaNEe2oZJcuCaSHaw" mandatoryInput="_iv0hYPaNEe2oZJcuCaSHaw">
+            <methodElementProperty xmi:id="_t9RRQPaNEe2oZJcuCaSHaw" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_1OkUoPaNEe2oZJcuCaSHaw" name="determinar_despliegue" guid="_1OkUoPaNEe2oZJcuCaSHaw" presentationName="determinar despliegue">
+          <methodElementProperty xmi:id="_1Ok7sPaNEe2oZJcuCaSHaw" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_WqZyQPaOEe2oZJcuCaSHaw" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_4GsYUPaNEe2oZJcuCaSHaw" name="carta_de_despliegue" guid="_4GsYUPaNEe2oZJcuCaSHaw" presentationName="carta de despliegue">
+            <methodElementProperty xmi:id="_WqfR0PaOEe2oZJcuCaSHaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="__SOK4PaNEe2oZJcuCaSHaw" name="tester" guid="__SOK4PaNEe2oZJcuCaSHaw" presentationName="tester" briefDescription="Un tester, también conocido como analista de pruebas o ingeniero de pruebas, desempeña un papel crucial en un proyecto de software. Su responsabilidad principal es evaluar y validar el software para asegurar su calidad y funcionamiento correcto.">
+            <methodElementProperty xmi:id="_Wql_gPaOEe2oZJcuCaSHaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_AZmpsPaOEe2oZJcuCaSHaw" name="lider_de_proyecto" guid="_AZmpsPaOEe2oZJcuCaSHaw" presentationName="lider de proyecto" briefDescription="El líder de proyecto de un proyecto de software es el profesional encargado de coordinar y supervisar todas las actividades relacionadas con el desarrollo y la implementación del software. Su función principal es asegurar que el proyecto se ejecute de manera exitosa, cumpliendo con los objetivos, plazos y requisitos establecidos.">
+            <methodElementProperty xmi:id="_Wqq4APaOEe2oZJcuCaSHaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_D9dyAPaOEe2oZJcuCaSHaw" name="gerente_" guid="_D9dyAPaOEe2oZJcuCaSHaw" presentationName="gerente " briefDescription="El gerente de un proyecto de software es el profesional responsable de liderar y supervisar todo el ciclo de vida de un proyecto de desarrollo de software. Su objetivo principal es asegurar que el proyecto se complete con éxito, dentro del presupuesto y en el tiempo establecido, cumpliendo con los requisitos y expectativas del cliente." responsibleFor="_4GsYUPaNEe2oZJcuCaSHaw">
+            <methodElementProperty xmi:id="_WqyMwPaOEe2oZJcuCaSHaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_LVZB0PaOEe2oZJcuCaSHaw" name="planificar_despliegue" guid="_LVZB0PaOEe2oZJcuCaSHaw" presentationName="planificar despliegue" briefDescription="La planificación del despliegue en un proyecto de software es un proceso crucial para asegurar que el lanzamiento del software sea exitoso." performedBy="_eTs7YPaNEe2oZJcuCaSHaw _gZpUMPaNEe2oZJcuCaSHaw _D9dyAPaOEe2oZJcuCaSHaw _AZmpsPaOEe2oZJcuCaSHaw __SOK4PaNEe2oZJcuCaSHaw" mandatoryInput="_4GsYUPaNEe2oZJcuCaSHaw">
+            <methodElementProperty xmi:id="_Wq4TYPaOEe2oZJcuCaSHaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_YIe50PaOEe2oZJcuCaSHaw" name="preparar_entorno" guid="_YIe50PaOEe2oZJcuCaSHaw" presentationName="preparar entorno" briefDescription="Preparar el entorno durante el despliegue de un proyecto de software implica configurar el ambiente donde se ejecutará y operará el software en producción. " performedBy="_D9dyAPaOEe2oZJcuCaSHaw _AZmpsPaOEe2oZJcuCaSHaw __SOK4PaNEe2oZJcuCaSHaw _gZpUMPaNEe2oZJcuCaSHaw _eTs7YPaNEe2oZJcuCaSHaw" mandatoryInput="_4GsYUPaNEe2oZJcuCaSHaw">
+            <methodElementProperty xmi:id="_hsUnkPaOEe2oZJcuCaSHaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_oRGjMPaOEe2oZJcuCaSHaw" name="definir_fecha_de_despliegue" guid="_oRGjMPaOEe2oZJcuCaSHaw" presentationName="definir fecha de despliegue" briefDescription="La fecha de despliegue en un proyecto de software es la fecha en la cual se planifica lanzar y poner en producción el software desarrollado. Establecer una fecha de despliegue es una tarea crítica que requiere considerar varios factores y seguir un proceso de planificación adecuado." performedBy="_eTs7YPaNEe2oZJcuCaSHaw _gZpUMPaNEe2oZJcuCaSHaw _D9dyAPaOEe2oZJcuCaSHaw _AZmpsPaOEe2oZJcuCaSHaw __SOK4PaNEe2oZJcuCaSHaw" mandatoryInput="_4GsYUPaNEe2oZJcuCaSHaw">
+            <methodElementProperty xmi:id="_tbIYEPaOEe2oZJcuCaSHaw" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_vgQRgPaOEe2oZJcuCaSHaw" name="desplegar_el_software" guid="_vgQRgPaOEe2oZJcuCaSHaw" presentationName="desplegar el software">
+          <methodElementProperty xmi:id="_vgQ4kPaOEe2oZJcuCaSHaw" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_9o4ZEPaOEe2oZJcuCaSHaw" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_yeeWIPaOEe2oZJcuCaSHaw" name="software_desplegado" guid="_yeeWIPaOEe2oZJcuCaSHaw" presentationName="software desplegado" briefDescription="El despliegue de un software implica no solo la instalación del código fuente o la aplicación en el entorno de producción, sino también la configuración de los servidores, la conexión con bases de datos, la asignación de recursos y cualquier otra tarea necesaria para garantizar que el software esté completamente funcional y listo para su uso.">
+            <methodElementProperty xmi:id="_9o8qgPaOEe2oZJcuCaSHaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_ABw8APaPEe2oZJcuCaSHaw" name="abrir_entorno" guid="_ABw8APaPEe2oZJcuCaSHaw" presentationName="abrir entorno" briefDescription="Durante el despliegue de un proyecto de software, abrir el entorno se refiere a la acción de preparar y configurar el entorno de producción o el ambiente en el cual se ejecutará la aplicación o sistema." performedBy="_eTs7YPaNEe2oZJcuCaSHaw _gZpUMPaNEe2oZJcuCaSHaw">
+            <methodElementProperty xmi:id="_FLvtkPaPEe2oZJcuCaSHaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_PYywYPaPEe2oZJcuCaSHaw" name="poner_en_marcha" guid="_PYywYPaPEe2oZJcuCaSHaw" presentationName="poner en marcha" briefDescription="Poner en marcha durante el despliegue de un proyecto de software implica realizar una serie de acciones para activar y hacer funcionar el sistema en el entorno de producción." performedBy="_eTs7YPaNEe2oZJcuCaSHaw _gZpUMPaNEe2oZJcuCaSHaw" mandatoryInput="_yeeWIPaOEe2oZJcuCaSHaw">
+            <methodElementProperty xmi:id="_TaBKIPaPEe2oZJcuCaSHaw" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_VYPxYPaPEe2oZJcuCaSHaw" name="monitoreo_y_soporte_" guid="_VYPxYPaPEe2oZJcuCaSHaw" presentationName="monitoreo y soporte ">
+          <methodElementProperty xmi:id="_VYQYcPaPEe2oZJcuCaSHaw" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_nC08wPaPEe2oZJcuCaSHaw" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_ajwM8PaPEe2oZJcuCaSHaw" name="monitoreo_y_soporte" guid="_ajwM8PaPEe2oZJcuCaSHaw" presentationName="monitoreo y soporte">
+            <methodElementProperty xmi:id="_nC7qcPaPEe2oZJcuCaSHaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_fGO5oPaPEe2oZJcuCaSHaw" name="establecer_mecanismos_de_monitoreo" guid="_fGO5oPaPEe2oZJcuCaSHaw" presentationName="establecer mecanismos de monitoreo" briefDescription="Establecer mecanismos de monitoreo durante el despliegue de software es fundamental para supervisar y evaluar el rendimiento, la disponibilidad y el comportamiento del sistema en tiempo real. Estos mecanismos permiten identificar y solucionar problemas de manera proactiva, asegurando un despliegue exitoso. " performedBy="_eTs7YPaNEe2oZJcuCaSHaw _gZpUMPaNEe2oZJcuCaSHaw">
+            <methodElementProperty xmi:id="_nDCYIPaPEe2oZJcuCaSHaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_jdDI4PaPEe2oZJcuCaSHaw" name="brindar_soporte" guid="_jdDI4PaPEe2oZJcuCaSHaw" presentationName="brindar soporte" briefDescription="Brindar soporte durante el despliegue de software es fundamental para garantizar que el proceso de implementación sea exitoso y que el software funcione correctamente una vez que esté en producción. " performedBy="_eTs7YPaNEe2oZJcuCaSHaw _gZpUMPaNEe2oZJcuCaSHaw" mandatoryInput="_ajwM8PaPEe2oZJcuCaSHaw">
+            <methodElementProperty xmi:id="_nDJF0PaPEe2oZJcuCaSHaw" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_RFfGTfQfEe2JFv2GBsKE7Q" name="CapabilityPatterns" guid="_RFfGTfQfEe2JFv2GBsKE7Q"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_RFfGTvQfEe2JFv2GBsKE7Q" name="DeliveryProcesses" guid="_RFfGTvQfEe2JFv2GBsKE7Q"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_RFfGT_QfEe2JFv2GBsKE7Q" name="ProcessContributions" guid="_RFfGT_QfEe2JFv2GBsKE7Q"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>
