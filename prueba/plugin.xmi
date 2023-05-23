@@ -30,7 +30,7 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_MC6ocPaJEe2oZJcuCaSHaw" name="gerente" guid="_MC6ocPaJEe2oZJcuCaSHaw" presentationName="gerente" briefDescription="El gerente de un proyecto de software es el encargado de planificar, coordinar y supervisar todas las actividades relacionadas con el desarrollo y la implementación del software. Su función principal es garantizar que el proyecto se complete exitosamente, cumpliendo con los objetivos establecidos, dentro del presupuesto y en el tiempo estimado." responsibleFor="_RKPuoPaJEe2oZJcuCaSHaw _mMPaYPaMEe2oZJcuCaSHaw">
             <methodElementProperty xmi:id="_6fzFEPaKEe2oZJcuCaSHaw" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_RKPuoPaJEe2oZJcuCaSHaw" name="parametros_de_prueba_" guid="_RKPuoPaJEe2oZJcuCaSHaw" presentationName="parametros de prueba ">
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_RKPuoPaJEe2oZJcuCaSHaw" name="parametros_de_prueba" guid="_RKPuoPaJEe2oZJcuCaSHaw" presentationName="parametros de prueba " briefDescription="Los parámetros de prueba son variables o inputs que se establecen previamente y se utilizan como entradas para probar diferentes escenarios y casos de uso en el software. ">
             <methodElementProperty xmi:id="_6f6Z0PaKEe2oZJcuCaSHaw" name="me_edited" value="true"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_Tf6lgPaJEe2oZJcuCaSHaw" name="establecer_tiempos_" guid="_Tf6lgPaJEe2oZJcuCaSHaw" presentationName="establecer tiempos " performedBy="_MC6ocPaJEe2oZJcuCaSHaw _KmyosPaJEe2oZJcuCaSHaw _JACGQPaJEe2oZJcuCaSHaw" mandatoryInput="_RKPuoPaJEe2oZJcuCaSHaw">
@@ -46,7 +46,7 @@
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_HPS2gPaLEe2oZJcuCaSHaw" name="encontrar_poblacion_de_prueba" guid="_HPS2gPaLEe2oZJcuCaSHaw" presentationName="encontrar poblacion de prueba">
           <methodElementProperty xmi:id="_HPS2gfaLEe2oZJcuCaSHaw" name="pkg_loadCheck" value="true"/>
           <methodElementProperty xmi:id="_TipegPaLEe2oZJcuCaSHaw" name="me_edited" value="true"/>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_KkVfsPaLEe2oZJcuCaSHaw" name="poblacion_conseguida" guid="_KkVfsPaLEe2oZJcuCaSHaw" presentationName="poblacion conseguida">
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_KkVfsPaLEe2oZJcuCaSHaw" name="poblacion_conseguida" guid="_KkVfsPaLEe2oZJcuCaSHaw" presentationName="poblacion conseguida" briefDescription="Encontrar la población apta para las pruebas">
             <methodElementProperty xmi:id="_Tiu-EPaLEe2oZJcuCaSHaw" name="me_edited" value="true"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_MLhf8PaLEe2oZJcuCaSHaw" name="definir_pago" guid="_MLhf8PaLEe2oZJcuCaSHaw" presentationName="definir pago" performedBy="_JACGQPaJEe2oZJcuCaSHaw" mandatoryInput="_RKPuoPaJEe2oZJcuCaSHaw">
@@ -87,7 +87,7 @@
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_iTve0PaMEe2oZJcuCaSHaw" name="identificar_resultados" guid="_iTve0PaMEe2oZJcuCaSHaw" presentationName="identificar resultados">
           <methodElementProperty xmi:id="_iTwF4PaMEe2oZJcuCaSHaw" name="pkg_loadCheck" value="true"/>
           <methodElementProperty xmi:id="_r4Zr8PaMEe2oZJcuCaSHaw" name="me_edited" value="true"/>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_mMPaYPaMEe2oZJcuCaSHaw" name="conclusiones_y_acciones_a_tomar" guid="_mMPaYPaMEe2oZJcuCaSHaw" presentationName="conclusiones y acciones a tomar">
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_mMPaYPaMEe2oZJcuCaSHaw" name="conclusiones_y_acciones_a_tomar" guid="_mMPaYPaMEe2oZJcuCaSHaw" presentationName="conclusiones y acciones a tomar" briefDescription="Las conclusiones son los resultados clave y las observaciones obtenidas a partir de un análisis o evaluación. Estas conclusiones deben ser claras, basadas en hechos y respaldadas por evidencia. Pueden resumir los hallazgos, identificar patrones, tendencias o problemas, y proporcionar una visión general de la situación o problema evaluado.&#xD;&#xA;&#xD;&#xA;Las acciones a tomar se refieren a las medidas o decisiones que se deben adoptar en función de las conclusiones obtenidas. Estas acciones pueden ser correctivas, preventivas o de mejora, y se toman con el objetivo de abordar los problemas identificados, optimizar el rendimiento, aprovechar oportunidades o resolver desafíos.">
             <methodElementProperty xmi:id="_r4hAsPaMEe2oZJcuCaSHaw" name="me_edited" value="true"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_onbDYPaMEe2oZJcuCaSHaw" name="analizar_resultados" guid="_onbDYPaMEe2oZJcuCaSHaw" presentationName="analizar resultados" briefDescription="Analizar los resultados de una prueba de software es una parte crítica del proceso de pruebas, ya que proporciona información valiosa sobre el rendimiento, la calidad y la estabilidad del software. " performedBy="_MC6ocPaJEe2oZJcuCaSHaw _KmyosPaJEe2oZJcuCaSHaw _JACGQPaJEe2oZJcuCaSHaw">

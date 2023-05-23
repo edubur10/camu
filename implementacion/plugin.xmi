@@ -91,7 +91,7 @@
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9C2U0PaDEe2_E42pcKnhRw" name="conectar_frontend_con_la_app" guid="_9C2U0PaDEe2_E42pcKnhRw" presentationName="conectar frontend con la app">
           <methodElementProperty xmi:id="_9C2U0faDEe2_E42pcKnhRw" name="pkg_loadCheck" value="true"/>
           <methodElementProperty xmi:id="_W2AJ0PaEEe2_E42pcKnhRw" name="me_edited" value="true"/>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="__G2z8PaDEe2_E42pcKnhRw" name="interfaz_y_controlador_asociados" guid="__G2z8PaDEe2_E42pcKnhRw" presentationName="interfaz y controlador asociados">
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="__G2z8PaDEe2_E42pcKnhRw" name="interfaz_y_controlador_asociados" guid="__G2z8PaDEe2_E42pcKnhRw" presentationName="interfaz y controlador asociados" briefDescription="la interfaz es la parte visible y tangible del sistema a través de la cual el usuario interactúa, mientras que el controlador es la parte que recibe y gestiona las acciones del usuario y coordina la lógica de negocio correspondiente. Ambos trabajan en conjunto para permitir una interacción fluida entre el usuario y el sistema de software.">
             <methodElementProperty xmi:id="_W2JTwfaEEe2_E42pcKnhRw" name="me_edited" value="true"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_CMlOwPaEEe2_E42pcKnhRw" name="crear_controlador_de_la_interfaz" guid="_CMlOwPaEEe2_E42pcKnhRw" presentationName="crear controlador de la interfaz" briefDescription="Al crear un controlador de la interfaz al momento de conectarla con la aplicación de un proyecto de software, se está diseñando la capa de control que se encargará de gestionar las interacciones y acciones realizadas por el usuario en la interfaz." performedBy="_ALR60PaDEe2_E42pcKnhRw">
@@ -107,7 +107,7 @@
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_dcXZ0PaEEe2_E42pcKnhRw" name="programar_servicios_y_controladores" guid="_dcXZ0PaEEe2_E42pcKnhRw" presentationName="programar servicios y controladores">
           <methodElementProperty xmi:id="_dcXZ0faEEe2_E42pcKnhRw" name="pkg_loadCheck" value="true"/>
           <methodElementProperty xmi:id="_sEKJoPaEEe2_E42pcKnhRw" name="me_edited" value="true"/>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_hUyc4PaEEe2_E42pcKnhRw" name="programa_funcional" guid="_hUyc4PaEEe2_E42pcKnhRw" presentationName="programa funcional">
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_hUyc4PaEEe2_E42pcKnhRw" name="programa_funcional" guid="_hUyc4PaEEe2_E42pcKnhRw" presentationName="programa funcional" briefDescription="Software funcional correctamente">
             <methodElementProperty xmi:id="_sETTkPaEEe2_E42pcKnhRw" name="me_edited" value="true"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_jDjr0PaEEe2_E42pcKnhRw" name="crear_metodos_asociados_a_la_interfaz" guid="_jDjr0PaEEe2_E42pcKnhRw" presentationName="crear metodos asociados a la interfaz" performedBy="_ALR60PaDEe2_E42pcKnhRw" mandatoryInput="_hUyc4PaEEe2_E42pcKnhRw" output="_hUyc4PaEEe2_E42pcKnhRw">
